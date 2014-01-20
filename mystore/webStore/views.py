@@ -26,7 +26,7 @@ def searchFunc(param, param1, param2, param3, param4):
     pass
 
 def categoryList(requset):
-    return HttpResponse("cat list")
+    return render(requset, "goods.html", {})
 
 def catList():
     pass

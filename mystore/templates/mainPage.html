@@ -6,16 +6,21 @@
       <title>صفحه ی نخست</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Loading Bootstrap -->
-      <link href="/static/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
       <!-- Loading Flat UI -->
-      <link href="/static/Flat-UI-master/css/flat-ui.css" rel="stylesheet">
-      <link rel="shortcut icon" href="/static/Flat-UI-master/images/favicon.ico">
+      <link href="Flat-UI-master/css/flat-ui.css" rel="stylesheet">
+
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
       <!--[if lt IE 9]>
 
       <![endif]-->
-        <script src="/static/jquery.min.js">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
+       <style>
+           body{
+               background:rgb(8,31,44) !important;
+           }
+       </style>
    </head>
    <body>
 
@@ -52,35 +57,179 @@
          </ul>
          <ul class="nav navbar-nav navbar-right">
             <li>
-               <a href="#">
-               سبد خرید
-               </a>
+                <a href="#">
+
+سبد خرید
+
+                </a>
             </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
             <li>
                <a href="#">
-               خرید
+درباره ی ما
                </a>
             </li>
          </ul>
-         <ul class="nav navbar-nav navbar-right">
-            <li>
-               <a href="#">
-               درباره ی ما
-               </a>
-            </li>
-         </ul>
-         <ul class="nav navbar-brand navbar-left">
+
+
+
+         <ul class="nav navbar-brand">
             <li>
                <input type="text" class="form-control" placeholder="جستجوی سریع" />
             </li>
          </ul>
+
+
+          <div class="col-md-14">
+
+          <div class="col-md-6" style="position: relative">
+              <div class="col-md-1" style="margin-top: 1cm">
+              <button  class="btn btn-success" onclick=majidlist('enter')      >
+           ورود
+       </button>
+                </div>
+
+            <div class="col-md-5" style="position: absolute;top: 0.5cm;left: 1.2cm">
+          <ul id="enter"  role="menu"   >
+            <li><a href="#">
+                <div class="login-form">
+            <div class="form-group">
+              <input type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="login-name">
+              <label class="login-field-icon fui-user" for="login-name"></label>
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+
+            <a class="btn btn-primary btn-lg btn-block" href="#">ورود</a>
+            <a class="login-link" href="#">رمز عبور را فراموش کرده ام</a>
+          </div>
+
+            </a></li>
+
+          </ul>
+
+
+          </div>
+          </div>
+
+
+          <div class="col-md-6">
+              <div class="col-md-1" style="margin-top: 1cm">
+              <button class="btn btn-success" onclick=majidlist('register')      >
+ثبت نام
+       </button>
+                </div>
+
+            <div class="col-md-5">
+          <ul id="register"  role="menu"   >
+            <li><a href="#">
+                <div class="login-form">
+            <div class="form-group">
+              <input type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
+              <label class="login-field-icon fui-user" for="login-name"></label>
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control login-field" value="" placeholder="رمز ورود" id="register-pass">
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control login-field" value="" placeholder=" تکرار رمز ورود" id="confirm-pass">
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+
+            <a class="btn btn-primary btn-lg btn-block" href="#">ثبت نام</a>
+
+          </div>
+
+            </a></li>
+
+          </ul>
+
+
+          </div>
+          </div>
+
+</div>
+
       </div>
       <div class="container">
-         <div class="col-lg-9">
-            <img src="/static/1.jpg" alt="example-image" class="img-rounded img-responsive left">
-         </div>
+
+
+         <div class="col-lg-9"  style="border: solid 10px;border-radius: 10px">
+             <!-- Carousel nav -->
+ <div id="Mycarousel" class="carousel slide" data-ride="carousel" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#Mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#Mycarousel" data-slide-to="1"></li>
+    <li data-target="#Mycarousel" data-slide-to="2"></li>
+    <li data-target="#Mycarousel" data-slide-to="3"></li>
+  </ol>
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner"style="height: 14cm" >
+
+    <div class="item active">
+
+      <img src="9.jpg" >
+ <div class="carousel-caption " >
+
+      </div>
+    </div>
+
+      <div class="item ">
+
+      <img src="10.jpg" >
+ <div class="carousel-caption">
+
+      </div>
+    </div>
+
+      <div class="item ">
+
+      <img src="11.jpg" >
+ <div class="carousel-caption">
+
+      </div>
+    </div>
+
+      <div class="item ">
+
+      <img src="12.jpg"  >
+<div class="carousel-caption">
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#Mycarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control " href="#Mycarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+                 <!-- Carousel nav -->
+
+        </div>
+
+
+
+
 
 
          <div class="col-md-3 " style="text-align: right" >
@@ -98,8 +247,9 @@
                <li class="previous">
                   <a href="#">
                   <span>
+
                   <i class="fui-arrow-left"></i>
-                  بعدی
+بعدی
                   </span>
                   </a>
                </li>
@@ -107,51 +257,62 @@
                   <a href="#">
                   <span>
                   <i class="fui-arrow-right"></i>
-                  قبلی
+قبلی
                   </span>
                   </a>
                </li>
             </ul>
          </div>
+          </div>
 
-         <div class="col-md-3 " style="text-align: right">
-            :شناسه کاربری
-            <input type="email" class="form-control">
-            :رمز ورود
 
-            <input type="email" class="form-control">
-            <br>
-            <button class="btn btn-inverse" >ثبت نام</button>
-            <button class="btn btn-primary" >ورود</button>
-         </div>
-      </div>
+
+        </div>
 
 
 
 
-      <script class="cssdeck" src="/static/jquery.min.js"></script>
-      <script class="cssdeck" src="/static/jquery.js">
-</script>
+
+
+
+
+
+
+      <script class="cssdeck" src="jquery.min.js"></script>
+      <script class="cssdeck" src="jquery.js"></script>
+
+      <script  class="cssdeck" src="bootstrap-3.0.3/dist/js/bootstrap.js"></script>
+      <script  class="cssdeck" src="bootstrap-3.0.3/js/dropdown.js"></script>
+      <script  class="cssdeck" src="bootstrap-3.0.3/dist/js/bootstrap.min.js"></script>
 
       <script>
 
-          var majidlist=function(id){
+
+           $(document).ready(function(){
+                majidlist('enter')
+                majidlist('register')
+
+           })
+
+            $('.carousel').carousel()
+
+            var majidlist=function(id){
 
                 $('ul[id='+id+']').animate({
                     height:'toggle'
                 });
 
-          }
+            }
+
 
           $.ajax({
-
-		url: "/ajax/goods" ,
-		type: 'get',
-		dataType: 'json',
-		success: function(data){
-		    if (data.result == 0){
-		       // Request error
-		    }else {
+              url: "http://webproject.roohy.me/ajax/1/unknown/category/list" ,
+              type: 'post',
+              dataType: 'json',
+              success: function(data){
+                  if (data.result == 0){
+                  // Request error
+                  }else {
 		       // success
 
                 for(i=0;i<data.categoryList.length;i++){
@@ -167,7 +328,7 @@
                         '<button class="btn btn-default" onclick=majidlist('+data.categoryList[i].id+') class="todo-name right" id="'+data.categoryList[i].id+'"'+'>'+data.categoryList[i].name+'</button>'+
                   '<ul id='+data.categoryList[i].id+'></ul></li>')
 
-
+                    majidlist(data.categoryList[i].id);
 
                     }else{
 
@@ -179,6 +340,8 @@
 
                     }
                 }
+
+
 		    }
 		}
 		// ...

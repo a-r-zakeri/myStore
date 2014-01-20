@@ -1,0 +1,7 @@
+ssh -T git@bitbucket.org
+
+[remote "origin"]
+  fetch = +refs/heads/*:refs/remotes/origin/*
+  url = git@bitbucket.org:newuserme/bb101repo.git
+
+

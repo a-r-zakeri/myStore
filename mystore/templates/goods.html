@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fa">
+   <head>
+      <meta charset="utf-8">
+      <title>محصولات</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Loading Bootstrap -->
+      <link href="/static/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <!-- Loading Flat UI -->
+      <link href="/static/Flat-UI-master/css/flat-ui.css" rel="stylesheet">
+      <link rel="shortcut icon" href="/static/Flat-UI-master/images/favicon.ico">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+      <!--[if lt IE 9]>
+      <script src="Flat-UI-master/js/html5shiv.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <!-- /nav bar -->
+      <div class="navbar navbar-inverse">
+         <ul class="nav navbar-collapse navbar-right">
+            <li>
+               <a href="#">
+               مرکز مال
+               </a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">
+               <i class="fui-arrow-left"></i>
+فیلم
+               </a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">
+               <i class="fui-arrow-left"></i>
+بلند
+               </a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">
+               <i class="fui-arrow-left"></i>
+ایرانی
+               </a>
+            </li>
+         </ul>
+         <ul class="nav navbar-brand navbar-left">
+            <li>
+               <input type="text" class="form-control" placeholder="جستجوی سریع" />
+            </li>
+         </ul>
+      </div>
+      <div class="container">
+         <div class="col-lg-9">
+
+
+         </div>
+         <div class="col-md-3 " style="text-align: right">
+            <div class="todo">
+               <h4 class="text-info "style="text-align: right">سبد مشتری</h4>
+               <ul id="13">
+
+
+
+                  <li  id="tota" class="dropdown-arrow-inverse">
+                     <div class="todo-icon"><button class="btn btn-success">پرداخت</button>
+                     </div>
+                     <div class="todo-content">
+                        <h4 class="todo-name right" >:جمع کل</h4>
+<span>
+
+</span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="pagination">
+               <ul>
+                  <li class="previous">
+                     <a href="#" class="fui-arrow-left" id="back"></a>
+                  </li>
+
+                  <li class="active" id="first"><a href="#fakelink">1</a></li>
+                  ...
+                  <li><a href="#fakelink" id="last">10</a></li>
+
+                  <li class="next">
+                     <a href="#" class="fui-arrow-right" id="forward"></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <script class="cssdeck" src="/static/jquery.min.js"></script>
+
+      <script>
+
+           var majidBtn
+           var majidMore
+           var ajaxData={
+                   "category": 0,
+                    "search": "",
+                    "page": 1,
+                    "pageSize": 9
+           };
+
+
+          $.ajax({
+              url:"/ajax/goods",
+              type: 'get',
+		      dataType: 'json',
+              data: ajaxData,
+		      success: function(data){
+
+		    if (data.result == 0){
+		       // Request error
+             alert("reuslt == 0");
+
+
+		    }else {
+             alert("reuslt == 1");
+		       // success
+                $("[id='last']").text(Math.ceil(data.totalResults/9))
+                $("[id='first']").text(data.page)
+
+                for(i=0;i<data.pageSize;i++){
+                    $("div.col-lg-9").append(
+                            '<div class="col-lg-4" style="text-align: right;margin-top:1cm"  >'+
+               '<img src='+data.productList[i].picUrl+' alt="example-image" class="img-rounded img-responsive">'+
+               '<div cat='+data.productList[i].category+' id='+data.productList[i].id+' class="text-info "  >'+data.productList[i].name +'</div>'+
+
+               '<div class="text-info" style="text-align: right" > قیمت:' +
+                            data.productList[i].price+'</div>'+
+
+               '<button id='+data.productList[i].id+' class="btn btn-default "> بیشتر</button>'+
+                '&nbsp;&nbsp;&nbsp;'+
+               '<button onclick=majidadd('+data.productList[i].id+',"majid",'+data.productList[i].price+')  class="btn btn-primary"  >اضافه به سبد </button>'+
+            '</div>'
+                    )
+                }
+                window.majidBtn=$(".btn.btn-primary")
+                
+                window.majidMore=$(".btn.btn-default")
+
+            }
+              }
+          });
+
+
+           $(document).on("click","[id='back']",function(){
+                p=1
+               if($("[id='first']").text()!=1){
+                   p=parseInt($("[id='first']").text())-1
+               }
+
+                var ajaxData={
+                   "category": 0,
+                    "search": "",
+                    "page": p,
+                    "pageSize": 9
+           };
+
+               $.ajax({
+
+
+              url:"/ajax/goods",
+              type: 'post',
+		      dataType: 'json',
+              data: ajaxData,
+		      success: function(data){
+
+		    if (data.result == 0){
+		       // Request error
+
+
+		    }else {
+		       // success
+
+                $("[id='last']").text(Math.ceil(data.totalResults/9))
+                $("[id='first']").text(data.page)
+                $("div.col-lg-9").empty()
+                for(i=0;i<data.pageSize;i++){
+                    $("div.col-lg-9").append(
+                            '<div class="col-lg-4" style="text-align: right;margin-top:1cm"  >'+
+               '<img src='+data.productList[i].picUrl+' alt="example-image" class="img-rounded img-responsive">'+
+               '<div cat='+data.productList[i].category+' id='+data.productList[i].id+' class="text-info "  >'+data.productList[i].name +'</div>'+
+
+               '<div class="text-info" style="text-align: right" > قیمت:' +
+                            data.productList[i].price+'</div>'+
+
+               '<button id='+data.productList[i].id+' class="btn btn-default "> بیشتر</button>'+
+                '&nbsp;&nbsp;&nbsp;'+
+              '<button onclick=majidadd('+data.productList[i].id+',"majid",'+data.productList[i].price+')  class="btn btn-primary"  >اضافه به سبد </button>'+
+            '</div>'
+                    )
+                }
+               majidBtn=$(".btn.btn-primary")
+                majidMore=$(".btn.btn-default")
+
+
+            }
+              }
+          });
+           })
+
+           $(document).on("click","[id='forward']",function(){
+
+                p=1
+
+               if($("[id='first']").text()!=$("[id='last']").text()){
+                   p=parseInt($("[id='first']").text())+1
+               }
+
+                var ajaxData={
+                   "category": 0,
+                    "search": "",
+                    "page": p,
+                    "pageSize": 9
+           };
+
+               $.ajax({
+
+
+              url:"/ajax/goods",
+              type: 'post',
+		      dataType: 'json',
+              data: ajaxData,
+		      success: function(data){
+
+		    if (data.result == 0){
+		       // Request error
+
+
+		    }else {
+		       // success
+
+                $("[id='last']").text(Math.ceil(data.totalResults/9))
+                $("[id='first']").text(data.page)
+                $("div.col-lg-9").empty()
+                for(i=0;i<data.pageSize;i++){
+                    $("div.col-lg-9").append(
+                            '<div class="col-lg-4" style="text-align: right;margin-top:1cm"  >'+
+               '<img src='+data.productList[i].picUrl+' alt="example-image" class="img-rounded img-responsive">'+
+               '<div cat='+data.productList[i].category+' id='+data.productList[i].id+' class="text-info "  >'+data.productList[i].name +'</div>'+
+
+               '<div class="text-info" style="text-align: right" > قیمت:' +
+                            data.productList[i].price+'</div>'+
+
+               '<button id='+data.productList[i].id+' class="btn btn-default "> بیشتر</button>'+
+                '&nbsp;&nbsp;&nbsp;'+
+               '<button onclick=majidadd('+data.productList[i].id+',"majid",'+data.productList[i].price+')  class="btn btn-primary"  >اضافه به سبد </button>'+
+            '</div>'
+                    )
+                }
+
+                majidBtn=$(".btn.btn-primary")
+                majidMore=$(".btn.btn-default")
+            }
+              }
+          });
+           })
+
+        /////////////////////////local
+           for(var i=0, len=localStorage.length; i<len; i++) {
+           var key = localStorage.key(i);
+           var value = JSON.parse(localStorage[key]);
+
+               $("li[id='tota']").before(
+
+                                    '<li  id='+key+' class="dropdown-arrow-inverse">'+
+                     '<div class="todo-icon"><button onclick=dele(id) id='+key+' class="btn btn-danger">حذف</button></div>'+
+                     '<div class="todo-content">'+
+                        '<h4 class="todo-name right" >'
+                                            +value.name+
+                                            ' </h4>'+'قیمت:'+
+                   '<span>'
+                                            +value.price+
+                                            '</span>'+
+                     '</div>'+
+                  '</li>'
+
+
+                            )
+
+    }
+
+
+
+           ////////////////////////end local
+
+
+           ///////////////////////////////////////delete
+           var dele=function(id){
+               $('li[id='+id+']').remove()
+               localStorage.removeItem(id)
+
+
+                                    var total= $("ul[id='13']").find("span")
+
+                                   var tt=0
+
+                                    for(j=0;j<total.length-1;j++){
+
+                                        tt+=parseInt(total.eq(j).text())
+                                        var temp={}
+
+                                    }
+
+                                    $("li[id='tota']").find("span").text(tt)
+
+                                ajaxData={
+                                    "id":id
+                                }
+
+
+
+                        $.ajax({
+                         url:"/ajax/goods",
+                        type: 'post',
+		                dataType: 'json',
+                            data:ajaxData,
+                        success:function(data){
+
+		    if (data.result == 0){
+		       // Request error
+
+
+
+		    }else {
+		       // success
+
+            }
+               }
+
+                         })
+
+
+            }
+           ///////////////////////////////////////end delete
+
+
+
+////////////////////////////////////////add
+                   var majidadd =function(id,name,price){
+
+
+
+                            $("li[id='tota']").before(
+
+                                    '<li  id='+id+' class="dropdown-arrow-inverse">'+
+                     '<div class="todo-icon"><button onclick=dele(id) id='+id+' class="btn btn-danger">حذف</button></div>'+
+                     '<div class="todo-content">'+
+                        '<h4 class="todo-name right" >'
+                                            +name+
+                                            ' </h4>'+'قیمت:'+
+                   '<span>'
+                                            +price+
+                                            '</span>'+
+                     '</div>'+
+                  '</li>'
+
+
+                            )
+
+                                   var total= $("ul[id='13']").find("span")
+                                   var local= $("ul[id='13']").find("li")
+
+                                   var tt=0
+
+                                    for(j=0;j<total.length-1;j++){
+
+                                        tt+=parseInt(total.eq(j).text())
+                                        var temp={}
+                                        temp.price=parseInt(total.eq(j).text())
+
+                                        temp.name=local.eq(j).find("h4").text()
+                                        console.log( temp );
+                                        localStorage.setItem( local.eq(j).attr("id"), JSON.stringify(temp) );
+                                        console.log( JSON.parse( localStorage.getItem( j ) ) );
+
+
+                                    }
+
+                                    $("li[id='tota']").find("span").text(tt)
+
+                                ajaxData={
+                                    "id":id
+                                }
+
+                                    $.ajax({
+                         url:"/ajax/goods",
+                        type: 'post',
+		                dataType: 'json',
+                            data:ajaxData,
+                        success:function(data){
+
+		    if (data.result == 0){
+		       // Request error
+
+
+
+		    }else {
+		       // success
+
+            }
+               }
+
+                         })
+
+
+
+
+
+
+                   }
+
+//////////////////////////////////////end add
+
+
+      </script>
+      <!-- Load JS here for greater good =============================-->
+
+   </body>
+</html>

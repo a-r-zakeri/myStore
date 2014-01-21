@@ -6,15 +6,15 @@
       <title>صفحه ی نخست</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Loading Bootstrap -->
-      <link href="Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="/static/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
       <!-- Loading Flat UI -->
-      <link href="Flat-UI-master/css/flat-ui.css" rel="stylesheet">
+      <link href="/static/Flat-UI-master/css/flat-ui.css" rel="stylesheet">
 
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
       <!--[if lt IE 9]>
 
       <![endif]-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+        <script src="/static/jquery.min.js">
 </script>
        <style>
            body{
@@ -178,7 +178,7 @@
 
     <div class="item active">
 
-      <img src="9.jpg" >
+      <img src="/static/9.jpg" >
  <div class="carousel-caption " >
 
       </div>
@@ -186,7 +186,7 @@
 
       <div class="item ">
 
-      <img src="10.jpg" >
+      <img src="/static/10.jpg" >
  <div class="carousel-caption">
 
       </div>
@@ -194,7 +194,7 @@
 
       <div class="item ">
 
-      <img src="11.jpg" >
+      <img src="/static/11.jpg" >
  <div class="carousel-caption">
 
       </div>
@@ -202,7 +202,7 @@
 
       <div class="item ">
 
-      <img src="12.jpg"  >
+      <img src="/static/12.jpg"  >
 <div class="carousel-caption">
 
       </div>
@@ -278,12 +278,12 @@
 
 
 
-      <script class="cssdeck" src="jquery.min.js"></script>
-      <script class="cssdeck" src="jquery.js"></script>
+      <script class="cssdeck" src="/static/jquery.min.js"></script>
+      <script class="cssdeck" src="/static/jquery.js"></script>
 
-      <script  class="cssdeck" src="bootstrap-3.0.3/dist/js/bootstrap.js"></script>
-      <script  class="cssdeck" src="bootstrap-3.0.3/js/dropdown.js"></script>
-      <script  class="cssdeck" src="bootstrap-3.0.3/dist/js/bootstrap.min.js"></script>
+      <script  class="cssdeck" src="/static/bootstrap-3.0.3/dist/js/bootstrap.js"></script>
+      <script  class="cssdeck" src="/static/bootstrap-3.0.3/js/dropdown.js"></script>
+      <script  class="cssdeck" src="/static/bootstrap-3.0.3/dist/js/bootstrap.min.js"></script>
 
       <script>
 
@@ -306,8 +306,8 @@
 
 
           $.ajax({
-              url: "http://webproject.roohy.me/ajax/1/unknown/category/list" ,
-              type: 'post',
+              url: "/ajax/goods" ,
+              type: 'get',
               dataType: 'json',
               success: function(data){
                   if (data.result == 0){

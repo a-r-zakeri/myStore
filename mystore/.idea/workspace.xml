@@ -27,7 +27,80 @@
         <entry file="file://$PROJECT_DIR$/templates/goods.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="25" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="7378">
-              <folding />
+              <folding>
+                <marker date="1390207108560" expanded="true" signature="31:13384" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="41:698" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="595:685" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="708:13376" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="774:1748" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="829:951" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="846:936" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="874:918" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1001:1150" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1018:1135" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1046:1117" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1200:1349" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1217:1334" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1245:1316" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1399:1550" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1416:1535" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1444:1517" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1601:1735" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1618:1720" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1778:2997" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1810:1828" placeholder="..." />
+                <marker date="1390207108560" expanded="false" signature="1869:1886" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1887:2984" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="1918:2434" placeholder="..." />
+                <marker date="1390207108560" expanded="false" signature="1964:1981" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2024:2415" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2092:2394" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2137:2212" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2260:2370" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2333:2342" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2471:2968" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2491:2949" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2531:2626" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="2829:2928" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="3082:13290" placeholder="..." />
+                <marker date="1390207108560" expanded="true" signature="3158:3305" placeholder="{&quot;category&quot;: 0...}" />
+                <marker date="1390207108560" expanded="true" signature="3326:4875" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+                <marker date="1390207108560" expanded="true" signature="3475:4863" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="3505:3577" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="3582:4847" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="3804:4706" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="4938:6792" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="5006:5082" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="5113:5260" placeholder="{&quot;category&quot;: 0...}" />
+                <marker date="1390207108560" expanded="true" signature="5285:6777" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+                <marker date="1390207108560" expanded="true" signature="5437:6765" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="5467:5504" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="5509:6749" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="5738:6639" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="6856:8735" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="6948:7024" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="7055:7202" placeholder="{&quot;category&quot;: 0...}" />
+                <marker date="1390207108560" expanded="true" signature="7227:8720" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+                <marker date="1390207108560" expanded="true" signature="7379:8708" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="7409:7446" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="7451:8692" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="7680:8582" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="8838:9654" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="9794:10853" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="10072:10238" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="10359:10438" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="10473:10836" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+                <marker date="1390207108560" expanded="true" signature="10682:10808" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="10712:10750" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="10755:10791" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="11018:13226" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="11995:12590" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="12711:12790" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="12835:13198" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+                <marker date="1390207108560" expanded="true" signature="13044:13170" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="13074:13112" placeholder="{...}" />
+                <marker date="1390207108560" expanded="true" signature="13117:13153" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +108,10 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myStore/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="414" selection-end="414" vertical-scroll-proportion="-4.8" vertical-offset="50" max-vertical-offset="425">
-              <folding />
+            <state line="17" column="42" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +119,10 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="4" selection-start="826" selection-end="826" vertical-scroll-proportion="-5.16" vertical-offset="262" max-vertical-offset="986">
-              <folding />
+            <state line="34" column="18" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +130,16 @@
       <file leaf-file-name="mainPage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="0" selection-start="5682" selection-end="5682" vertical-scroll-proportion="2.8839285" vertical-offset="2533" max-vertical-offset="6239">
-              <folding />
+            <state line="309" column="24" selection-start="7741" selection-end="7741" vertical-scroll-proportion="0.366" vertical-offset="5070" max-vertical-offset="6239">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +147,7 @@
       <file leaf-file-name="ajax.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="374">
+            <state line="9" column="28" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -88,10 +173,10 @@
         <option value="$PROJECT_DIR$/myStore/settings.py" />
         <option value="$PROJECT_DIR$/webStore/models.py" />
         <option value="$PROJECT_DIR$/webStore/ajax.py" />
-        <option value="$PROJECT_DIR$/myStore/urls.py" />
         <option value="$PROJECT_DIR$/commands" />
         <option value="$PROJECT_DIR$/templates/goods.html" />
         <option value="$PROJECT_DIR$/webStore/views.py" />
+        <option value="$PROJECT_DIR$/myStore/urls.py" />
         <option value="$PROJECT_DIR$/templates/mainPage.html" />
       </list>
     </option>
@@ -245,7 +330,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_barchin" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -257,7 +342,7 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings />
+      <PyConsoleSettings />
     </option>
   </component>
   <component name="RecentsManager">
@@ -446,11 +531,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18030304" sideWeight="0.67966104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18030304" sideWeight="0.67966104" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16638225" sideWeight="0.28658536" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.320339" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.320339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.320339" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.320339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -460,6 +545,26 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16638225" sideWeight="0.28658536" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.320339" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18030304" sideWeight="0.67966104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.320339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -504,11 +609,6 @@
         <state line="61" column="28" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.913486" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Flat-UI-master/js/html5shiv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.12561576" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myStore/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="16" selection-start="1888" selection-end="1888" vertical-scroll-proportion="1.2840096" vertical-offset="0" max-vertical-offset="0">
@@ -516,14 +616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webStore/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.07441016" vertical-offset="34" max-vertical-offset="585" />
+        <state line="5" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.07441016" vertical-offset="34" max-vertical-offset="585">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commands">
@@ -531,38 +628,123 @@
         <state line="7" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/goods.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="25" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="7378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myStore/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="414" selection-end="414" vertical-scroll-proportion="-4.8" vertical-offset="50" max-vertical-offset="425">
-          <folding />
+          <folding>
+            <marker date="1390207108560" expanded="true" signature="31:13384" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="41:698" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="595:685" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="708:13376" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="774:1748" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="829:951" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="846:936" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="874:918" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1001:1150" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1018:1135" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1046:1117" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1200:1349" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1217:1334" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1245:1316" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1399:1550" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1416:1535" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1444:1517" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1601:1735" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1618:1720" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1778:2997" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1810:1828" placeholder="..." />
+            <marker date="1390207108560" expanded="false" signature="1869:1886" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1887:2984" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="1918:2434" placeholder="..." />
+            <marker date="1390207108560" expanded="false" signature="1964:1981" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2024:2415" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2092:2394" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2137:2212" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2260:2370" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2333:2342" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2471:2968" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2491:2949" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2531:2626" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="2829:2928" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="3082:13290" placeholder="..." />
+            <marker date="1390207108560" expanded="true" signature="3158:3305" placeholder="{&quot;category&quot;: 0...}" />
+            <marker date="1390207108560" expanded="true" signature="3326:4875" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+            <marker date="1390207108560" expanded="true" signature="3475:4863" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="3505:3577" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="3582:4847" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="3804:4706" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="4938:6792" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="5006:5082" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="5113:5260" placeholder="{&quot;category&quot;: 0...}" />
+            <marker date="1390207108560" expanded="true" signature="5285:6777" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+            <marker date="1390207108560" expanded="true" signature="5437:6765" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="5467:5504" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="5509:6749" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="5738:6639" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="6856:8735" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="6948:7024" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="7055:7202" placeholder="{&quot;category&quot;: 0...}" />
+            <marker date="1390207108560" expanded="true" signature="7227:8720" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+            <marker date="1390207108560" expanded="true" signature="7379:8708" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="7409:7446" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="7451:8692" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="7680:8582" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="8838:9654" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="9794:10853" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="10072:10238" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="10359:10438" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="10473:10836" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+            <marker date="1390207108560" expanded="true" signature="10682:10808" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="10712:10750" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="10755:10791" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="11018:13226" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="11995:12590" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="12711:12790" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="12835:13198" placeholder="{&quot;url&quot;: &quot;/ajax/goods&quot;...}" />
+            <marker date="1390207108560" expanded="true" signature="13044:13170" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="13074:13112" placeholder="{...}" />
+            <marker date="1390207108560" expanded="true" signature="13117:13153" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="826" selection-end="826" vertical-scroll-proportion="-5.16" vertical-offset="262" max-vertical-offset="986">
+        <state line="34" column="18" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myStore/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="0" selection-start="5682" selection-end="5682" vertical-scroll-proportion="2.8839285" vertical-offset="2533" max-vertical-offset="6239">
-          <folding />
+        <state line="309" column="24" selection-start="7741" selection-end="7741" vertical-scroll-proportion="0.366" vertical-offset="5070" max-vertical-offset="6239">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

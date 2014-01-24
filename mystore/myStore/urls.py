@@ -15,8 +15,13 @@ urlpatterns = patterns('',
     url(r'^ajaxexample$', 'webStore.views.main'),
     url(r'^ajaxexample_json$', 'webStore.views.ajax'),
     url(r'^goods$', 'webStore.views.goods'),
+    url(r'^addGoods$', 'webStore.views.addGoods'),
+    url(r'^ajax/addGoods', 'webStore.ajax.uploadimage'),
     url(r'^ajax/goods$', 'webStore.ajax.goods'),
+    url(r'^specification$', 'webStore.views.specification'),
+    url(r'^ajax/specification$', 'webStore.ajax.contact'),
     url(r'^$', 'webStore.views.mainPage'),
 )
 
 urlpatterns += staticfiles_urlpatterns()
+

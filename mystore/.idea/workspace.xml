@@ -26,10 +26,8 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state line="6" column="28" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,7 +35,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="51" selection-start="2187" selection-end="2187" vertical-scroll-proportion="-49.64" vertical-offset="0" max-vertical-offset="1360">
+            <state line="76" column="22" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="881" max-vertical-offset="1751">
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -45,54 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myStore/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="42" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="527">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webStore/form.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="486" selection-end="486" vertical-scroll-proportion="0.6380697" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainPage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="308" column="32" selection-start="7701" selection-end="7714" vertical-scroll-proportion="-2.3333333" vertical-offset="5117" max-vertical-offset="6239">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="specification.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/specification.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="60" selection-start="4165" selection-end="4165" vertical-scroll-proportion="-1.5769231" vertical-offset="2118" max-vertical-offset="3995">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="185" selection-end="310" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="1411">
+            <state line="21" column="54" selection-start="891" selection-end="891" vertical-scroll-proportion="0.59517425" vertical-offset="101" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -101,7 +55,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="57" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0" vertical-offset="1225" max-vertical-offset="1649">
+            <state line="58" column="27" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1224">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -109,10 +63,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myStore/settings.py">
+      <file leaf-file-name="addGood.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/addGood.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="1890" selection-end="1890" vertical-scroll-proportion="-54.4" vertical-offset="0" max-vertical-offset="1683">
+            <state line="40" column="33" selection-start="1583" selection-end="1583" vertical-scroll-proportion="5.230769" vertical-offset="816" max-vertical-offset="3961">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webStore/form.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainPage.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="308" column="33" selection-start="7715" selection-end="7715" vertical-scroll-proportion="-0.65384614" vertical-offset="5219" max-vertical-offset="6239">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specification.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/specification.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="200" column="61" selection-start="6012" selection-end="6012" vertical-scroll-proportion="-6.8076925" vertical-offset="3223" max-vertical-offset="4029">
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#form#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#form#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#2;n#form#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="22" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="1632">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -133,16 +139,16 @@
         <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/commands" />
         <option value="$PROJECT_DIR$/templates/goods.html" />
-        <option value="$PROJECT_DIR$/webStore/admin.py" />
-        <option value="$PROJECT_DIR$/templates/addGood.html" />
         <option value="$PROJECT_DIR$/myStore/settings.py" />
         <option value="$PROJECT_DIR$/templates/mainPage.html" />
-        <option value="$PROJECT_DIR$/myStore/urls.py" />
-        <option value="$PROJECT_DIR$/templates/specification.html" />
+        <option value="$PROJECT_DIR$/templates/addGood.html" />
+        <option value="$PROJECT_DIR$/webStore/admin.py" />
+        <option value="$PROJECT_DIR$/webStore/models.py" />
         <option value="$PROJECT_DIR$/webStore/form.py" />
         <option value="$PROJECT_DIR$/webStore/views.py" />
         <option value="$PROJECT_DIR$/webStore/ajax.py" />
-        <option value="$PROJECT_DIR$/webStore/models.py" />
+        <option value="$PROJECT_DIR$/templates/specification.html" />
+        <option value="$PROJECT_DIR$/myStore/urls.py" />
       </list>
     </option>
   </component>
@@ -256,20 +262,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mystore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="myStore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -309,15 +301,15 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysite" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysite" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -337,6 +329,51 @@
     </key>
   </component>
   <component name="RunManager" selected="Django server.myStore">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myStore" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myStore" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,6 +413,32 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myStore" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,6 +463,26 @@
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myStore" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -502,7 +585,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -510,11 +593,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18030304" sideWeight="0.6785714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18333334" sideWeight="0.6785714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16638225" sideWeight="0.28658536" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32142857" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -538,31 +621,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="28" selection-start="5396" selection-end="5404" vertical-scroll-proportion="-1.3529412" vertical-offset="2872" max-vertical-offset="7378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python33/Lib/site-packages/django/contrib/staticfiles/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="479" selection-end="479" vertical-scroll-proportion="0.6380697" vertical-offset="0" max-vertical-offset="373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/addGood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="3905" selection-end="3905" vertical-scroll-proportion="32.35294" vertical-offset="3588" max-vertical-offset="3910">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python33/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="427" column="8" selection-start="19070" selection-end="19070" vertical-scroll-proportion="-9.441667" vertical-offset="10216" max-vertical-offset="17374">
@@ -572,59 +630,73 @@
     </entry>
     <entry file="file://C:/Python33/Lib/site-packages/django/utils/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2857" selection-end="2857" vertical-scroll-proportion="4.284182" vertical-offset="0" max-vertical-offset="2635">
-          <folding />
-        </state>
+        <state line="99" column="0" selection-start="2857" selection-end="2857" vertical-scroll-proportion="4.284182" vertical-offset="0" max-vertical-offset="2635" />
       </provider>
     </entry>
     <entry file="file://C:/Python33/Lib/site-packages/django/core/management/validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="5775" selection-end="5775" vertical-scroll-proportion="4.9583335" vertical-offset="0" max-vertical-offset="6307">
-          <folding />
-        </state>
+        <state line="112" column="0" selection-start="5775" selection-end="5775" vertical-scroll-proportion="4.9583335" vertical-offset="0" max-vertical-offset="6307" />
       </provider>
     </entry>
     <entry file="file://C:/Python33/Lib/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="3434" selection-end="3434" vertical-scroll-proportion="4.1930294" vertical-offset="0" max-vertical-offset="3196">
+        <state line="92" column="0" selection-start="3434" selection-end="3434" vertical-scroll-proportion="4.1930294" vertical-offset="0" max-vertical-offset="3196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myStore/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1683">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python33/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="17" selection-start="12410" selection-end="12410" vertical-scroll-proportion="7.133333" vertical-offset="2170" max-vertical-offset="9792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webStore/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="27" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1224">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state line="6" column="28" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
+    <entry file="file://$PROJECT_DIR$/templates/addGood.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="32" selection-start="7701" selection-end="7714" vertical-scroll-proportion="-2.3333333" vertical-offset="5117" max-vertical-offset="6239">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="40" column="33" selection-start="1583" selection-end="1583" vertical-scroll-proportion="5.230769" vertical-offset="816" max-vertical-offset="3961">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myStore/urls.py">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="527">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webStore/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="51" selection-start="2187" selection-end="2187" vertical-scroll-proportion="-49.64" vertical-offset="0" max-vertical-offset="1360">
+        <state line="76" column="22" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="881" max-vertical-offset="1751">
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -633,37 +705,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="185" selection-end="310" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myStore/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="1890" selection-end="1890" vertical-scroll-proportion="-54.4" vertical-offset="0" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webStore/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="57" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0" vertical-offset="1225" max-vertical-offset="1649">
+        <state line="26" column="22" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="1632">
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="33" selection-start="7715" selection-end="7715" vertical-scroll-proportion="-0.65384614" vertical-offset="5219" max-vertical-offset="6239">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/specification.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="60" selection-start="4165" selection-end="4165" vertical-scroll-proportion="-1.5769231" vertical-offset="2118" max-vertical-offset="3995">
-          <folding />
+        <state line="200" column="61" selection-start="6012" selection-end="6012" vertical-scroll-proportion="-6.8076925" vertical-offset="3223" max-vertical-offset="4029">
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#form#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#form#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#2;n#form#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webStore/form.py">
+    <entry file="file://$PROJECT_DIR$/myStore/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="486" selection-end="486" vertical-scroll-proportion="0.6380697" vertical-offset="0" max-vertical-offset="459">
+        <state line="21" column="54" selection-start="891" selection-end="891" vertical-scroll-proportion="0.59517425" vertical-offset="101" max-vertical-offset="527">
           <folding />
         </state>
       </provider>

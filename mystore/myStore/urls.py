@@ -19,7 +19,7 @@ urlpatterns = patterns('',
     url(r'^ajax/addGoods', 'webStore.ajax.uploadimage'),
     url(r'^ajax/goods$', 'webStore.ajax.goods'),
     url(r'^specification$', 'webStore.views.specification'),
-    url(r'^ajax/specification$', 'webStore.ajax.contact'),
+    url(r'^ajax/comments$', 'webStore.ajax.comments'),
     url(r'^$', 'webStore.views.mainPage'),
 )
 

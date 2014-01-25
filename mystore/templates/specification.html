@@ -126,29 +126,31 @@
 
           </div>
           <div class="col-lg-10 " style="text-align: right">
-            <form  method="get">
-                {{ form.subject.errors }}
+            <form  method="post" >
+                {% csrf_token %}
+                <h6 style="color:red">{{ form.subject.errors }}</h6>
+
                 <span class="text-info"> :نام نویسنده </span>
                 <br>
-                <input class="form-control" placeholder="نام">
+                 {{ form.subject }}
                 <br>
-                {{ form.subject }}
-                {{ form.message.errors }}
+
+                 <h6 style="color:red">{{ form.message.errors }}</h6>
                 <span class="text-info">:نظر </span>
                 <br>
-                <input class="form-control" placeholder="بنویس!">
-                <br>
                 {{ form.message }}
+                <br>
+                 <h6 style="color:red">{{ form.sender.errors }}</h6>
                 <span class="text-info">:ایمیل </span>
                 <br>
-                <input class="form-control" placeholder="ایمیل">
-                <br>
-                {{ form.sender.errors }}
-
                 {{ form.sender }}
+                <br>
 
-                <button class="btn btn-success">ثبت نظر</button>
-            </form>
+
+
+
+                <button type="submit" onclick="comment" class="btn btn-success">ثبت نظر</button>
+            </form >
           </div>
 
       </div>
@@ -189,8 +191,8 @@
            });
 
           $.ajax({
-              url:"http://webproject.roohy.me/ajax/1/unknown/comment/list",
-              type:'post',
+              url:"/ajax/comments",
+              type:'get',
               dataType:'json',
               success:function(data){
                   if(data.result==0){

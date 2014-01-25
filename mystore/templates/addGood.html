@@ -33,11 +33,14 @@
       <div class="container">
          <div class="col-lg-9">
             <form class="col-lg-6 ">
-                 <img src="1.jpg" id="change" alt="example-image" class="img-rounded img-responsive">
-                <fieldset>
+                 <img src="/static/1.jpg" id="change" alt="example-image" class="img-rounded img-responsive">
+
+                {% comment %}<fieldset>
                     <input   class="btn btn-default" type="file"  name="image" style="margin-top:1cm" >
-                </fieldset>
-               <button  class="btn btn-success" style="margin-top:1cm" >افزودن عکس</button>
+                </fieldset>{% endcomment %}
+                {{ forms.image }}
+
+               <button  type="submit" class="btn btn-success" style="margin-top:1cm" >افزودن عکس</button>
             </form>
             <div class="col-md-7" style="float:right;text-align: right">
                <br>

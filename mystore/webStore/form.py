@@ -127,5 +127,27 @@ class Register(forms.Form):
     def clean(self):
         cleaned_data = super(Register, self).clean()
 
-        return self.cleaned_data
+        return cleaned_data
 
+
+
+class LoginForm(forms.Form):
+    uname = forms.CharField(required=False)
+    pword = forms.CharField(widget = forms.PasswordInput(), required=False)
+
+    def clean_uname(self):
+        username = self.cleaned_data.get('uname')
+        if not username:
+            raise forms.ValidationError(u"نام کاربری را وارد کنید")
+        return username
+
+    def clean_pword(self):
+        password = self.cleaned_data.get('pword')
+        if not password:
+            raise forms.ValidationError("رمز عبور را وارد کنید")
+        return password
+
+    def clean(self):
+        cleaned_data = super(LoginForm, self).clean()
+
+        return cleaned_data

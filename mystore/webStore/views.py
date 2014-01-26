@@ -5,7 +5,8 @@ from django.template import RequestContext
 from webStore.form import *
 from django.shortcuts import render
 from webStore.models import *
-
+from django.contrib.auth import authenticate, logout
+from django.contrib.auth import login
 
 
 
@@ -70,6 +71,22 @@ def mainPage(request):
         print("views.mainPage: " + request.method)
         return render_to_response("mainPage.html", RequestContext(request, {}))
 
+    if 'uname' in request.POST:
+        form = LoginForm(request.POST)
+
+        if form.is_valid():
+            username = form.clean_uname()
+            password = form.clean_pword()
+            user = authenticate(username=username, password=password)
+            if user is not None and user.is_active:
+                login(request, user)
+                return ("mainPage.html", RequestContext(request, {}))
+        return render(request,"mainPage.html",{
+            'form':form,
+        })
+
+
+
     form=Register(request.POST)
     if form.is_valid():
         password=form.clean_password()
@@ -105,6 +122,7 @@ def specification(request):
     return render(request,"specification.html",{
             'form':form,
         })
+
 
 def addGoods(request):
     print("majid")

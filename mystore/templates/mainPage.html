@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" xmlns="http://www.w3.org/1999/html">
    <head>
 
       <meta charset="utf-8">
@@ -88,23 +88,25 @@
               <button  class="btn btn-success" onclick=majidlist('enter')      >
            ورود
        </button>
+                  <form method="post">
+                      {% csrf_token %}
           <div class="col-md-7" style="position: absolute;top: -.5cm;left: 1.2cm">
           <ul id="enter"  role="menu"   >
             <li><a href="#">
                 <div class="login-form">
-
+            <h6 style="color:red">{{ form.uname.errors }}</h6>
             <div class="form-group">
-              <input type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
+              <input name="uname" id="id_uname" type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
               <label class="login-field-icon fui-user" for="login-name"></label>
             </div>
 
-
+            <h6 style="color:red">{{ form.pword.errors }}</h6>
             <div class="form-group">
-              <input type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
+              <input name="pword" id="id_pword" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
               <label class="login-field-icon fui-lock" for="login-pass"></label>
             </div>
 
-            <a class="btn btn-primary btn-lg btn-block" href="#">ورود</a>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" href="#">ورود</button>
             <a class="login-link" href="#">رمز عبور را فراموش کرده ام</a>
           </div>
 
@@ -114,7 +116,7 @@
 
 
           </div>
-
+            </form>
 
 
                 </div>
@@ -131,28 +133,24 @@
           <ul id="register"  role="menu"   >
             <li><a href="#">
                 <div class="login-form">
-
+                <h6 style="color:red">{{ form.username.errors }}</h6>
             <div class="form-group">
-               <h6 style="color:red">{{ form.username.errors }}</h6>
               <input id="id_username" name="username" type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
               <label class="login-field-icon fui-user" for="login-name"></label>
             </div>
 
-
+            <h6 style="color:red">{{ form.password.errors }}</h6>
             <div class="form-group">
-                 <h6 style="color:red">{{ form.password.errors }}</h6>
               <input id="id_password" name="password" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
               <label class="login-field-icon fui-lock" for="login-pass"></label>
             </div>
-
+            <h6 style="color:red">{{ form.cpassword.errors }}</h6>
             <div class="form-group">
-                 <h6 style="color:red">{{ form.cpassword.errors }}</h6>
               <input id="id_cpassword" name="cpassword" type="password" class="form-control login-field" value="" placeholder=" تکرار رمز عبور" id="login-pass">
               <label class="login-field-icon fui-lock" for="login-pass"></label>
             </div>
-
+            <h6 style="color:red">{{ form.email.errors }}</h6>
             <div class="form-group">
-                 <h6 style="color:red">{{ form.email.errors }}</h6>
               <input id="id_email" name="email" type="text" class="form-control login-field" value="" placeholder=" ایمیل" id="login-pass">
               <label class="login-field-icon fui-mail" for="login-mail"></label>
             </div>

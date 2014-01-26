@@ -125,9 +125,7 @@ def specification(request):
 
 
 def addGoods(request):
-    print("majid")
     form=AddGood()
-    print("majid1")
     if request.method !='POST':
         return render(request,"addGood.html",{
             'form':form,
@@ -135,18 +133,19 @@ def addGoods(request):
 
 
     form = AddGood(request.POST, request.FILES)
-    print("majid2")
     if form.is_valid():
-        print("majid3")
         image=form.clean()
         count=form.clean_count()
         name=form.clean_name()
         about=form.clean()
         price=form.clean_price()
-
-        saveImage=Image(picUrl=image.pk,pic=image)
-
+        saveImage=Image.objects.create(picUrl=image,pic= request.FILES.get("image"))
         saveImage.save()
+        slideShow=SlideShow.objects.create(imageURL=image)
+        slideShow.save()
+        cat=Category.objects.create(name="majid",parent=None)
+        saveGood=Good.objects.create(name=name, category=cat, price= price, count=count, pic= saveImage, slideShow=slideShow)
+        saveGood.save()
 
     return render(request,"addGood.html",{
             'form':form,

@@ -22,6 +22,22 @@ def goods(request):
     data ['categoryList'] = JSONallCats
     return HttpResponse(json.dumps(data), content_type="application/json")
 
+
+def goodsList(request):
+    print("method: " + request.method)
+    allGood = models.Good.objects.all()
+    JSONallGoods = []
+    for good in allGood:
+        JSONallGoods.append({"picUrl": good.name, "category" : good.id, "id" : good.id, "name" : good.name, "price" : good.price})#should be complete
+    print(JSONallGoods)
+    data = {}
+    data ['result'] = "1"
+    data ['page'] = request.POST["page"]
+    data ['pageSize'] = request.POST["pageSize"]
+    data ['productList'] = JSONallGoods
+    return HttpResponse(json.dumps(data), content_type="application/json")
+
+
 def comments(request):
     print("method: " + request.method)
     allComments = models.Comment.objects.all()

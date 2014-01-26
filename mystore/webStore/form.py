@@ -43,7 +43,7 @@ class ContactForm(forms.Form):
 
 
 class AddGood(forms.Form):
-    image = forms.ImageField()
+    image = forms.FileField(required=False)
     count = forms.IntegerField( required=False)
     name = forms.CharField(max_length=100, required=False)
     about = forms.CharField(widget=forms.Textarea, required=False)
@@ -67,12 +67,6 @@ class AddGood(forms.Form):
         if name=='':
             raise forms.ValidationError('لطفا نام محصول را وارد کنید')
         return name
-
-    def clean_message(self):
-        sender = self.cleaned_data['message']
-        if sender=='':
-            raise forms.ValidationError('لطفا نظر خود را وارد کنید')
-        return sender
 
     def clean(self):
         cleaned_data = super(AddGood, self).clean()

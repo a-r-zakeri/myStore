@@ -111,7 +111,7 @@
 
 
           $.ajax({
-              url:"/ajax/goods",
+              url:"/ajax/goodsList",
               type: 'get',
 		      dataType: 'json',
               data: ajaxData,
@@ -119,11 +119,11 @@
 
 		    if (data.result == 0){
 		       // Request error
-             alert("reuslt == 0");
+
 
 
 		    }else {
-             alert("reuslt == 1");
+
 		       // success
                 $("[id='last']").text(Math.ceil(data.totalResults/9))
                 $("[id='first']").text(data.page)
@@ -168,7 +168,7 @@
                $.ajax({
 
 
-              url:"/ajax/goods",
+              url:"/ajax/goodsList",
               type: 'post',
 		      dataType: 'json',
               data: ajaxData,
@@ -226,7 +226,7 @@
                $.ajax({
 
 
-              url:"/ajax/goods",
+              url:"/ajax/goodsList",
               type: 'post',
 		      dataType: 'json',
               data: ajaxData,
@@ -320,7 +320,7 @@
 
 
                         $.ajax({
-                         url:"/ajax/goods",
+                         url:"/ajax/goodsList",
                         type: 'post',
 		                dataType: 'json',
                             data:ajaxData,

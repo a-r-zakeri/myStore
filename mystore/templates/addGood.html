@@ -12,7 +12,14 @@
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
       <!--[if lt IE 9]>
       <script src="Flat-UI-master/js/html5shiv.js"></script>
+
       <![endif]-->
+
+        <style>
+           body{
+               background:rgb(8,31,44) !important;
+           }
+       </style>
    </head>
    <body>
       <!-- /nav bar -->
@@ -32,7 +39,7 @@
       </div>
       <div class="container">
          <div class="col-lg-9">
-             <form method="post" action="{% url upload_pic %}">
+             <form method="post" >
                   {% csrf_token %}
             <div class="col-lg-6 ">
                  <img src="/static/1.jpg" id="change" alt="example-image" class="img-rounded img-responsive">
@@ -71,7 +78,7 @@
                  <h6 style="color:red">{{ form.about.errors }}</h6>
                 <span class="text-info">:توضیح </span>
                 <br>
-                {{ form.about }}
+                &nbsp{{ form.about }}
                 <br>
 
 

@@ -27,11 +27,15 @@ class SlideShow(models.Model):
 
 class Image(models.Model):
     picUrl=models.URLField(verbose_name=u"آدرس عکس")
-    #pic=models.ImageField(upload_to="images/")
+   # pic=models.ImageField(upload_to="images/")
+
+    def __str__(self):
+        return self.picUrl
 
     class Meta:
         verbose_name = "عکس "
         verbose_name_plural = "  عکس ها"
+
 
 
 class Good(models.Model):
@@ -39,7 +43,7 @@ class Good(models.Model):
     category = models.ForeignKey(Category)
     slidShow = models.OneToOneField(SlideShow, null=True, blank=True)
     price = models.IntegerField(verbose_name=u"قیمت")
-    pic= models.ForeignKey(Image)
+    #pic= models.ForeignKey(Image)
 
     def __str__(self):
         return self.name
@@ -64,3 +68,15 @@ class Comment(models.Model):
 
 
 
+class User(models.Model):
+
+    username = models.CharField(max_length=100, verbose_name=u"شناسه کاربری")
+    password = models.CharField(max_length=100, verbose_name=u"رمز عبور")
+    email = models.EmailField()
+
+    def __str__(self):
+        return self.username
+
+    class Meta:
+        verbose_name = "کاربر"
+        verbose_name_plural = "کاربران"

@@ -2,7 +2,7 @@ from django.core.serializers import json
 from django.http import *
 from django.shortcuts import render_to_response, render
 from django.template import RequestContext
-from webStore.form import ContactForm
+from webStore.form import *
 from django.shortcuts import render
 from webStore.models import *
 
@@ -63,14 +63,27 @@ def goods(request):
     return render_to_response("goods.html", RequestContext(request, {}))
 
 
-def addGoods(request):
-    print("views. addGooods: " + request.method)
-    return render_to_response("addGood.html", RequestContext(request, {}))
-
 
 def mainPage(request):
-    print("views.mainPage: " + request.method)
-    return render_to_response("mainPage.html", RequestContext(request, {}))
+
+    if request.method != 'POST':
+        print("views.mainPage: " + request.method)
+        return render_to_response("mainPage.html", RequestContext(request, {}))
+
+    form=Register(request.POST)
+    if form.is_valid():
+        password=form.clean_password()
+        cpassword=form.clean_cpassword()
+        username=form.clean_username()
+        email=form.clean_email()
+        user=User.objects.create(username=username, password=password, email=email)
+        user.save()
+
+
+    return render(request,"mainPage.html", {
+        'form':form,
+    })
+
 
 
 def specification(request):
@@ -83,14 +96,41 @@ def specification(request):
 
     form=ContactForm(request.POST)
     if form.is_valid():
-        sender=form.cleaned_data['sender']
-        subject=form.cleaned_data['subject']
-        message=form.cleaned_data['message']
+        sender=form.clean_sender()
+        subject=form.clean_subject()
+        message=form.clean_message()
         comment = Comment.objects.create(subject=subject, sender=sender, message=message)
-
         comment.save()
 
     return render(request,"specification.html",{
+            'form':form,
+        })
+
+def addGoods(request):
+    print("majid")
+    form=AddGood()
+    print("majid1")
+    if request.method !='POST':
+        return render(request,"addGood.html",{
+            'form':form,
+        })
+
+
+    form = AddGood(request.POST, request.FILES)
+    print("majid2")
+    if form.is_valid():
+        print("majid3")
+        image=form.clean()
+        count=form.clean_count()
+        name=form.clean_name()
+        about=form.clean()
+        price=form.clean_price()
+
+        saveImage=Image(picUrl=image.pk,pic=image)
+
+        saveImage.save()
+
+    return render(request,"addGood.html",{
             'form':form,
         })
 

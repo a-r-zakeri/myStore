@@ -81,23 +81,23 @@
          </ul>
 
 
-          <div class="col-md-14">
 
-          <div class="col-md-6" style="position: relative">
-              <div class="col-md-1" style="margin-top: 1cm">
+
+
+              <div class="col-md-7" style="margin-top: 1cm ;float: left;left: -6.5cm">
               <button  class="btn btn-success" onclick=majidlist('enter')      >
            ورود
        </button>
-                </div>
-
-            <div class="col-md-5" style="position: absolute;top: 0.5cm;left: 1.2cm">
+          <div class="col-md-7" style="position: absolute;top: 0.5cm;left: 1.2cm">
           <ul id="enter"  role="menu"   >
             <li><a href="#">
                 <div class="login-form">
+
             <div class="form-group">
-              <input type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="login-name">
+              <input type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
               <label class="login-field-icon fui-user" for="login-name"></label>
             </div>
+
 
             <div class="form-group">
               <input type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
@@ -114,36 +114,50 @@
 
 
           </div>
-          </div>
 
 
-          <div class="col-md-6">
-              <div class="col-md-1" style="margin-top: 1cm">
-              <button class="btn btn-success" onclick=majidlist('register')      >
-ثبت نام
-       </button>
+
                 </div>
 
-            <div class="col-md-5">
+
+          <div class="col-md-7" style="margin-top: 1cm;float: left ;">
+              <button  class="btn btn-success" onclick=majidlist('register')      >
+ثبت نام
+       </button>
+              <form method="post">
+                  {{ form.non_field_errors }}
+                  {% csrf_token %}
+          <div class="col-md-7" style="position: absolute;top: 0.5cm;left: 1.2cm">
           <ul id="register"  role="menu"   >
             <li><a href="#">
                 <div class="login-form">
+
             <div class="form-group">
-              <input type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
+               <h6 style="color:red">{{ form.username.errors }}</h6>
+              <input id="id_username" name="username" type="text" class="form-control login-field" value="" placeholder="شناسه ی کاربری" id="register-name">
               <label class="login-field-icon fui-user" for="login-name"></label>
             </div>
 
+
             <div class="form-group">
-              <input type="password" class="form-control login-field" value="" placeholder="رمز ورود" id="register-pass">
+                 <h6 style="color:red">{{ form.password.errors }}</h6>
+              <input id="id_password" name="password" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
               <label class="login-field-icon fui-lock" for="login-pass"></label>
             </div>
 
             <div class="form-group">
-              <input type="password" class="form-control login-field" value="" placeholder=" تکرار رمز ورود" id="confirm-pass">
+                 <h6 style="color:red">{{ form.cpassword.errors }}</h6>
+              <input id="id_cpassword" name="cpassword" type="password" class="form-control login-field" value="" placeholder=" تکرار رمز عبور" id="login-pass">
               <label class="login-field-icon fui-lock" for="login-pass"></label>
             </div>
 
-            <a class="btn btn-primary btn-lg btn-block" href="#">ثبت نام</a>
+            <div class="form-group">
+                 <h6 style="color:red">{{ form.email.errors }}</h6>
+              <input id="id_email" name="email" type="text" class="form-control login-field" value="" placeholder=" ایمیل" id="login-pass">
+              <label class="login-field-icon fui-mail" for="login-mail"></label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block" >ثبت نظر</button>
 
           </div>
 
@@ -153,9 +167,15 @@
 
 
           </div>
-          </div>
+          </form>
 
-</div>
+
+                </div>
+
+
+
+
+
 
       </div>
       <div class="container">

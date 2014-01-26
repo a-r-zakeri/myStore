@@ -1,12 +1,10 @@
 from django.http import *
 from webStore import models
 import json
-from webStore.form import ContactForm
+from webStore.form import *
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
-from django import forms
-from django.core.validators import validate_email
-from django.core.exceptions import ValidationError
+
 
 
 def goods(request):
@@ -49,22 +47,7 @@ def uploadimage(request):
     return HttpResponse(json.dumps(data), content_type="application/json")
 
 
-def register(request):
-    if request.method == "POST":
-        username = request.POST.get('username', None)
-        if not username:
-            username_error = u"نام کاربری الزامی است"
-        elif not re.match("[\d\w_\.]{6,}", username):
-            username_error = u"نام کاربری باید حداقل شش حرفی شامل حروف یا اعداد باشد"
-        elif User.objects.filter(username=username).count() > 0:
-            username_error = u"این نام در دسترس نیست"
-        email = request.POST.get('email', None)
-        if not email:
-            email_error = u" آدرس ایمیل الزامی است"
-        elif not email_re.search(email):
-            email_error = u" ایمیل وارد شده معتبر نیست"
-        elif User.objects.filter(email=email).count() > 0:
-            email_error = u" قبلا با این آدرس ثبت نام شده است"
+
 
 
 def contact(request):

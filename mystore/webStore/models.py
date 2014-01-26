@@ -1,8 +1,6 @@
 from django.db import models
 from django import forms
-from django.core.exceptions import ValidationError
-from django import forms
-from django.core.validators import validate_email
+
 
 
 class Category(models.Model):
@@ -35,6 +33,7 @@ class Image(models.Model):
         verbose_name = "عکس "
         verbose_name_plural = "  عکس ها"
 
+
 class Good(models.Model):
     name = models.CharField(max_length=200, verbose_name=u"نام کالا")
     category = models.ForeignKey(Category)
@@ -50,42 +49,18 @@ class Good(models.Model):
         verbose_name_plural = "کالاها"
 
 
+class Comment(models.Model):
+
+    subject = models.CharField(max_length=100, verbose_name=u"نام نویسنده", null=True, blank=True)
+    message = models.CharField(max_length=300, verbose_name=u"پیغام")
+    sender = models.EmailField(verbose_name=u"میل")
+
+    def __str__(self):
+        return self.subject
+
+    class Meta:
+        verbose_name = "نظر"
+        verbose_name_plural = "نظرات"
 
 
-
-
-
-class ContactForm(forms.Form):
-    subject = forms.CharField(max_length=100)
-    message = forms.CharField()
-    sender = forms.EmailField()
-    cc_myself = forms.BooleanField(required=False)
-
-
-class MultiEmailField(forms.Field):
-    def to_python(self, value):
-        "Normalize data to a list of strings."
-        # Return an empty list if no input was given.
-        if not value:
-            return []
-        return value.split(',')
-
-    def validate_even(value):
-        if value % 2 != 0:
-            raise ValidationError(u'%s is not an even number' % value)
-
-    def validate(self, value):
-        "Check if value consists only of valid emails."
-
-        # Use the parent's handling of required fields, etc.
-        super(MultiEmailField, self).validate(value)
-
-        for email in value:
-            validate_email(email)
-
-
-
-class comment(forms.Form):
-    c=MultiEmailField;
-    subject=forms.CharField(validators=[c.validate_even])
 

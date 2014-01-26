@@ -4,7 +4,10 @@ from django.shortcuts import render_to_response, render
 from django.template import RequestContext
 from webStore.form import ContactForm
 from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from webStore.models import *
+
+
+
 
 
 def main(request):
@@ -71,5 +74,24 @@ def mainPage(request):
 
 
 def specification(request):
-    print("views.specification: " + request.method)
-    return render_to_response("specification.html", RequestContext(request, {}))
+    form=ContactForm()
+    if request.method !='POST':
+        return render(request,"specification.html",{
+            'form':form,
+        })
+
+
+    form=ContactForm(request.POST)
+    if form.is_valid():
+        sender=form.cleaned_data['sender']
+        subject=form.cleaned_data['subject']
+        message=form.cleaned_data['message']
+        comment = Comment.objects.create(subject=subject, sender=sender, message=message)
+
+        comment.save()
+
+    return render(request,"specification.html",{
+            'form':form,
+        })
+
+

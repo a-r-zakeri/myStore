@@ -24,6 +24,19 @@ def goods(request):
     data ['categoryList'] = JSONallCats
     return HttpResponse(json.dumps(data), content_type="application/json")
 
+def comments(request):
+    print("method: " + request.method)
+    allComments = models.Comment.objects.all()
+    JSONallComments = []
+    for category in allComments:
+        JSONallComments.append({"message": category.message, "name" : category.subject})
+
+    print(JSONallComments)
+    data = {}
+    data ['result'] = "1"
+    data ['commentList'] = JSONallComments
+    return HttpResponse(json.dumps(data), content_type="application/json")
+
 
 def uploadimage(request):
 

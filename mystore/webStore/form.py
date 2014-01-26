@@ -1,22 +1,46 @@
 from django import forms
 
-
 class ContactForm(forms.Form):
-    def clean_recipients(self):
-        data = self.cleaned_data['recipients']
-        if "merlion380@gmail.com" not in data:
-            raise forms.ValidationError("You have forgotten about Milad!")
-        return data
+    subject = forms.CharField(max_length=100,required=False)
+    message = forms.CharField(widget=forms.Textarea, required=False)
+    sender = forms.EmailField(required=False)
+
+    def clean_confirmpass(self):
+        copass = self.cleaned_data['confirmpass']
+        password = self.cleaned_data['password']
+        if copass != password:
+            raise forms.ValidationError(u"رمز ورود با رمز تایید برابر نیست")
+        return copass
+
+
+
+
+    def clean_subject(self):
+        sender = self.cleaned_data['subject']
+        if sender=='':
+            raise forms.ValidationError('لطفا نام خود را وارد کنید')
+        return sender
+
+    def clean_message(self):
+        sender = self.cleaned_data['message']
+        if sender=='':
+            raise forms.ValidationError('لطفا نظر خود را وارد کنید')
+        return sender
+
+    def clean_sender(self):
+        sender = self.cleaned_data['sender']
+        if sender=='':
+            raise forms.ValidationError('لطفا میل خود را وارد کنید')
+        return sender
+
+
 
     def clean(self):
         cleaned_data = super(ContactForm, self).clean()
-        cc_myself = cleaned_data.get("cc_myself")
-        subject = cleaned_data.get("subject")
-        if cc_myself and subject:
-            # Only do something if both fields are valid so far.
-            if "help" not in subject:
-                raise forms.ValidationError("Did not send for 'help' in "
-                    "the subject despite CC'ing yourself.")
+
+
 
         # Always return the full collection of cleaned data.
         return cleaned_data
+
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fa" xmlns="http://www.w3.org/1999/html">
+<head>
+      <meta charset="utf-8">
+      <title> {{ title }} </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Loading Bootstrap -->
+      <link href="/static/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <!-- Loading Flat UI -->
+      <link href="/static/Flat-UI-master/css/flat-ui.css" rel="stylesheet">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+      <!--[if lt IE 9]>
+      <![endif]-->
+         <script src="/static/jquery.min.js"></script>
+         <style>
+           body{
+               background:rgb(8,31,44) !important;
+           }
+         </style>
+</head>
+
+<body>
+      <!-- /nav bar -->
+      <div class="navbar navbar-inverse">
+         <ul class="nav  navbar-right">
+            <li>
+
+               <a href="#">
+               مرکز مالی
+               </a>
+            </li>
+         </ul>
+
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">
+               محبوب ترین محصولات
+               </a>
+            </li>
+         </ul>
+
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">
+               پیشنهاد ویژه
+               </a>
+            </li>
+         </ul>
+
+
+
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="#">
+درباره ی ما
+               </a>
+            </li>
+         </ul>
+
+
+          <ul class="nav navbar-nav navbar-right" style="position: absolute;top: 2cm;left: 30cm">
+            <li>
+               <input type="text"  class="form-control" placeholder="جستجوی سریع" />
+            </li>
+         </ul>
+
+
+           <ul>
+              <li>
+         <div class="col-md-7" style="position: absolute;left: 0cm;top: 0cm" >
+
+             <div class="btn-group select select-block open">
+
+                <button  class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"  style="width: 4cm;height: 3cm">
+                <img src="/static/flat-ui-master/images/icons/svg/paper-bag.svg" alt="Pocket">
+            </button>
+
+                 <ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;width:8cm">
+
+
+
+                     <li rel="4" class="selected">
+                        <a tabindex="-1" href="/sabad/" class="">
+                            <span class="pull-left">جزییات</span>
+                        </a>
+                    </li>
+
+                     <li rel="1" class="">
+                        <a tabindex="-1" href="" class="">
+                            <span class="pull-left">شرلوک هلمز</span>
+                        </a>
+                    </li>
+
+                    <li rel="4" class="selected">
+                        <a tabindex="-1" href="/sabad/" class="">
+                            <span class="pull-left">پرداخت</span>
+                        </a>
+                    </li>
+
+                     </ul>
+                 </div>
+
+         </div>
+                  </li>
+              </ul>
+
+
+
+
+
+
+
+                  <!-- Enter form !-->
+          <ul>
+              <li>
+         <div class="col-md-7" style="position: absolute;left: 5cm;top: 0cm" >
+            <button  class="btn btn-success" onclick="majidlist('enter')" style="width: 4cm;height: 3cm">
+        <img src="/static/flat-ui-master/images/icons/svg/retina.svg" alt="Retina">
+            </button>
+            <form method="post">
+               {% csrf_token %}
+               <div class="col-md-7" style="position: relative;  left: -2cm; top: 0.5cm;">
+                  <ul id="enter"  role="menu" style="display: none">
+                     <li><a href="#">
+
+                        <div class="login-form">
+
+                           <h6 style="color:red">{{ form.uname.errors }}</h6>
+                           <div class="form-group">
+                              <input name="uname" id="id_uname" type="text" class="form-control login-field" value="" placeholder="شناسه کاربری" id="register-name">
+                              <label class="login-field-icon fui-user" for="login-name"></label>
+                           </div>
+                           <h6 style="color:red">{{ form.pword.errors }}</h6>
+                           <div class="form-group">
+                              <input name="pword" id="id_pword" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
+                              <label class="login-field-icon fui-lock" for="login-pass"></label>
+                           </div>
+                           <button type="submit" name="majid1" class="btn btn-primary btn-lg btn-block" href="#">ورود</button>
+                           <a class="login-link" href="#">  رمز عبور را فراموش کرده ام   </a>
+                        </div>
+                     </a></li>
+                  </ul>
+               </div>
+            </form>
+
+         </div>
+                  </li>
+              </ul>
+         <!-- End of Enter form !-->
+
+         <!-- Register form !-->
+          <ul>
+              <li>
+         <div class="col-md-7" style="position: absolute;left: 10cm;top: 0cm">
+
+            <button  class="btn btn-success" onclick="majidlist('register')" style="width: 4cm;height: 3cm">
+<img src="/static/flat-ui-master/images/icons/svg/clipboard.svg" alt="Clipboard">
+            </button>
+            <form method="post">
+               {{ form.non_field_errors }}
+               {% csrf_token %}
+               <div class="col-md-7" style="position: relative; left: -2cm; top: 0.5cm;">
+                  <ul id="register"  role="menu" style="display: none">
+                     <li><a href="#">
+                        <div class="login-form">
+                           <h6 style="color:red">{{ form.username.errors }}</h6>
+                           <div class="form-group">
+                              <input id="id_username" name="username" type="text" class="form-control login-field" value="" placeholder="شناسه کاربری " id="register-name">
+                              <label class="login-field-icon fui-user" for="login-name"></label>
+                           </div>
+                           <h6 style="color:red">{{ form.password.errors }}</h6>
+                           <div class="form-group">
+                              <input id="id_password" name="password" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
+                              <label class="login-field-icon fui-lock" for="login-pass"></label>
+                           </div>
+                           <h6 style="color:red">{{ form.cpassword.errors }}</h6>
+                           <div class="form-group">
+                              <input id="id_cpassword" name="cpassword" type="password" class="form-control login-field" value="" placeholder="تکرار رمز عبور" id="login-pass">
+                              <label class="login-field-icon fui-lock" for="login-pass"></label>
+                           </div>
+                           <h6 style="color:red">{{ form.email.errors }}</h6>
+                           <div class="form-group">
+                              <input id="id_email" name="email" type="text" class="form-control login-field" value="" placeholder="آدرس پستی" id="login-pass">
+                              <label class="login-field-icon fui-mail" for="login-mail"></label>
+                           </div>
+
+                           <button type="submit" name="majid2" class="btn btn-primary btn-lg btn-block" >ثبت نام </button>
+                        </div>
+                     </a></li>
+                  </ul>
+               </div>
+            </form>
+         </div>
+                  </li>
+              </ul>
+         <!-- End of Register form !-->
+
+
+
+
+      </div>
+
+{% block body %}
+
+{%  endblock %}
+
+      <script class="cssdeck" src="/static/jquery.min.js"></script>
+      <script class="cssdeck" src="/static/jquery.js"></script>
+
+      <script  class="cssdeck" src="/static/bootstrap-3.0.3/dist/js/bootstrap.js"></script>
+      <script  class="cssdeck" src="/static/bootstrap-3.0.3/js/dropdown.js"></script>
+      <script  class="cssdeck" src="/static/bootstrap-3.0.3/dist/js/bootstrap.min.js"></script>
+
+      <script>
+
+         var majidlist=function(id){
+            $('ul[id=' + id + ']').animate({
+               height:'toggle'
+            });
+         }
+
+      </script>
+
+
+</body>
+
+</html>

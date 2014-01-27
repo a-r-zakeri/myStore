@@ -77,49 +77,6 @@
          </ul>
 
 
-           <ul>
-              <li>
-         <div class="col-md-7" style="position: absolute;left: 0cm;top: 0cm" >
-
-             <div class="btn-group select select-block open">
-
-                <button  class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"  style="width: 4cm;height: 3cm">
-                <img src="/static/flat-ui-master/images/icons/svg/paper-bag.svg" alt="Pocket">
-            </button>
-
-                 <ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;width:8cm">
-
-
-
-                     <li rel="4" class="selected">
-                        <a tabindex="-1" href="/sabad/" class="">
-                            <span class="pull-left">جزییات</span>
-                        </a>
-                    </li>
-
-                     <li rel="1" class="">
-                        <a tabindex="-1" href="" class="">
-                            <span class="pull-left">شرلوک هلمز</span>
-                        </a>
-                    </li>
-
-                    <li rel="4" class="selected">
-                        <a tabindex="-1" href="/sabad/" class="">
-                            <span class="pull-left">پرداخت</span>
-                        </a>
-                    </li>
-
-                     </ul>
-                 </div>
-
-         </div>
-                  </li>
-              </ul>
-
-
-
-
-
 
 
                   <!-- Enter form !-->
@@ -208,7 +165,45 @@
          <!-- End of Register form !-->
 
 
+ <ul>
+              <li>
 
+         <div class="col-md-7" style="position: absolute;left: 4cm;top: 0cm" >
+
+
+
+                <button  class="btn btn-success" onclick="majidlist('basket')"  style="width: 4cm;height: 3cm">
+                <img src="/static/flat-ui-master/images/icons/svg/paper-bag.svg" alt="Pocket">
+            </button>
+
+
+                <div class="col-md-7" style="position: relative;  left: -2cm; top: 0.5cm;">
+                  <ul id="basket"  role="menu" style="display: none">
+                     <li><a href="#">
+
+                        <div class="login-form">
+
+                            <div name="addBasket">
+
+
+                            </div>
+
+
+
+                            <button type="submit" name="" class="btn btn-primary btn-lg btn-block" >خرید</button>
+                            <button type="submit" name="" class="btn btn-primary btn-lg btn-block" > جزییات </button>
+
+                        </div>
+                     </a></li>
+                  </ul>
+               </div>
+
+
+
+
+         </div>
+                  </li>
+              </ul>
 
       </div>
 
@@ -235,5 +230,29 @@
 
 
 </body>
+
+<script>
+
+    $.ajax({
+            url: "/ajax/basketList",
+            type: 'get',
+            dataType: 'json',
+            success: function(data){
+               if (data.result == 0){
+                  // Request error
+               }else {
+                  // success
+                  for(i=0;i<data.basketList.length;i++){
+
+                        $("div[name='addBasket'] ").before( '<ul>'+
+                                '<h4 class="todo-name right" >'+data.basketList[i].name+'</h4>'+
+                                '</ul>')
+
+                  }
+               }
+            }
+         });
+
+</script>
 
 </html>

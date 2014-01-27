@@ -94,19 +94,39 @@ def addBasket(request):
     user=User.objects.filter(username=request.user['username'])
     basket=Basket(user=user, good=good, status=False)
     basket.save()
+    data={}
+    data ['result'] = "1"
+    return HttpResponse(json.dumps(data), content_type="application/json")
 
 
 def removeBasket(request):
     good=Good.objects.get(pk=requsest['id'])
     user=User.objects.filter(username=request.user['username'])
     Basket.objects.filter(user=user, good=good).delete()
+    data={}
+    data ['result'] = "1"
+    return HttpResponse(json.dumps(data), content_type="application/json")
+
+def basketList(request):
+    user=User.objects.filter(username=request.user['username'])
+    bs=Basket.objects.filter(user=user)
+    data={}
+    list=[]
+    for basket in bs:
+        list.append({"name":basket.good['name']})
+    data ['result'] = "1"
+    data ['basketList'] = list
+    return HttpResponse(json.dumps(data), content_type="application/json")
+
 
 
 
 def buy(request):
-    good=Good.objects.get(pk=requsest['id'])
     user=User.objects.filter(username=request.user['username'])
-    basket=Basket.objects.filter(user=user, good=good)
+    basket=Basket.objects.filter(user=user)
     for bs in basket:
         bs.status=True
     basket.save()
+    data={}
+    data ['result'] = "1"
+    return HttpResponse(json.dumps(data), content_type="application/json")

@@ -67,7 +67,7 @@
 
 
                   <li  id="tota" class="dropdown-arrow-inverse">
-                     <div class="todo-icon"><button class="btn btn-success">پرداخت</button>
+                     <div class="todo-icon"><button action="/ajax/buy" name="buy" class="btn btn-success">پرداخت</button>
                      </div>
                      <div class="todo-content">
                         <h4 class="todo-name right" >:جمع کل</h4>
@@ -150,6 +150,30 @@
             }
               }
           });
+           //////////////////////////
+           $(document).on("click","[name='buy']",function(){
+           $.ajax({
+                         url:"/ajax/buy",
+                        type: 'post',
+		                dataType: 'json',
+                            data:ajaxData,
+                        success:function(data){
+
+		    if (data.result == 0){
+		       // Request error
+
+
+
+		    }else {
+		       // success
+
+            }
+               }
+
+                         })
+
+           })
+           /////////////////////////////
 
 
            $(document).on("click","[id='back']",function(){

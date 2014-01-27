@@ -133,30 +133,20 @@ def specification(request):
 
 
 def addGoods(request):
-    form=AddGood()
-    if request.method !='POST':
-        return render(request,"addGood.html",{
-            'form':form,
-        })
+    if request.method != 'POST':
+        form = GoodForm()
+        fileForm = FileForm()
+        return render(request,"addGood.html",
+                      {'title': u"افزودن محصول", 'form':form, 'fileForm': fileForm})
 
-
-    form = AddGood(request.POST, request.FILES)
+    form = GoodForm(request.POST)
+    fileForm = FileForm(request.POST)
     if form.is_valid():
-        image=form.clean()
-        count=form.clean_count()
-        name=form.clean_name()
-        about=form.clean()
-        price=form.clean_price()
-        saveImage=Image.objects.create(picUrl=image,pic= request.FILES.get("image"))
-        saveImage.save()
-        slideShow=SlideShow.objects.create(imageURL=image)
-        slideShow.save()
-        cat=Category.objects.create(name="majid",parent=None)
-        saveGood=Good.objects.create(name=name, category=cat, price= price, count=count, pic= saveImage, slideShow=slideShow)
-        saveGood.save()
+        newGood = form.save(commit=False)
+        newGood.image = request.FILES['file']
+        newGood.save()
+        form.save_m2m()
 
-
-    return render(request,"addGood.html",{
-            'form':form,
-        })
+    return render(request,"addGood.html",
+                  {'title': u"افزودن محصول", 'form':form, 'fileForm': fileForm})
 

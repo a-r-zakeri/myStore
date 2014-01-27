@@ -25,26 +25,26 @@ class SlideShow(models.Model):
         verbose_name_plural = "عکس های اسلاید"
 
 
-class Image(models.Model):
-    picUrl=models.URLField(verbose_name=u"آدرس عکس")
-    pic=models.FileField(upload_to="images/")
-
-    def __str__(self):
-        return self.picUrl
-
-    class Meta:
-        verbose_name = "عکس "
-        verbose_name_plural = "  عکس ها"
+# class Image(models.Model):
+#     picUrl=models.URLField(verbose_name=u"آدرس عکس")
+#     pic=models.FileField(upload_to="/images/%Y/%m/%d")
+#
+#     def __str__(self):
+#         return self.picUrl
+#
+#     class Meta:
+#         verbose_name = "عکس "
+#         verbose_name_plural = "  عکس ها"
 
 
 
 class Good(models.Model):
     name = models.CharField(max_length=200, verbose_name=u"نام کالا")
-    category = models.ForeignKey(Category)
+    category = models.ForeignKey(Category, verbose_name=u"دسته‌ی کالا")
     slideShow = models.OneToOneField(SlideShow, null=True, blank=True)
     price = models.IntegerField(verbose_name=u"قیمت")
     count = models.IntegerField(verbose_name=u"تعداد")
-    pic= models.ForeignKey(Image)
+    image = models.FileField(upload_to="images/", verbose_name=u"عکس کالا")
 
 
     def __str__(self):

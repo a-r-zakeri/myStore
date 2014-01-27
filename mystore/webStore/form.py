@@ -1,6 +1,7 @@
 from django import forms
 import re
-from webStore.models import User
+from django.forms import ModelForm
+from webStore.models import User, Good
 
 
 class ContactForm(forms.Form):
@@ -41,41 +42,49 @@ class ContactForm(forms.Form):
         # Always return the full collection of cleaned data.
         return cleaned_data
 
+class GoodForm(ModelForm):
+    class Meta:
+        model = Good
+        fields = ['name', 'category', 'price', 'count']
 
-class AddGood(forms.Form):
-    image = forms.FileField(required=False)
-    count = forms.IntegerField( required=False)
-    name = forms.CharField(max_length=100, required=False)
-    about = forms.CharField(widget=forms.Textarea, required=False)
-    price = forms.IntegerField( required=False)
+class FileForm(forms.Form):
+    file = forms.FileField(label="enter file")
 
+# class GoodForm(forms.Form):
+#     imageFile = forms.FileField(label=u"یک عکس برای محصول انتخاب کنید")
+    # count = forms.IntegerField(required=True)
+    # name = forms.CharField(max_length=100, required=True)
+    # about = forms.CharField(widget=forms.Textarea, required=False)
+    # price = forms.IntegerField(required=False)
+    #
+    # def clean_count(self):
+    #     count = self.cleaned_data['count']
+    #     if count <= 0:
+    #         raise forms.ValidationError(u"باید حد اقل یک موجودی از این محصول باشد")
+    #     return count
+    #
+    # def clean_price(self):
+    #     print(self)
+    #     print(self.cleaned_data)
+    #     count = self.cleaned_data['price']
+    #     if count == None or count <= 0:
+    #         raise forms.ValidationError(u"لطفا قیمت صحیح وارد کنید")
+    #     return count
+    #
+    # def clean_name(self):
+    #     name = self.cleaned_data['name']
+    #     if name=='':
+    #         raise forms.ValidationError('لطفا نام محصول را وارد کنید')
+    #     return name
+    #
+    # def clean(self):
+    #     cleaned_data = super(GoodForm, self).clean()
 
-    def clean_count(self):
-        count = self.cleaned_data['count']
-        if count<=0:
-            raise forms.ValidationError(u"باید حد اقل یک موجودی از این محصول باشد")
-        return count
-
-    def clean_price(self):
-        count = self.cleaned_data['price']
-        if count<=0:
-            raise forms.ValidationError(u"لطفا قیمت صحیح وارد کنید")
-        return count
-
-    def clean_name(self):
-        name = self.cleaned_data['name']
-        if name=='':
-            raise forms.ValidationError('لطفا نام محصول را وارد کنید')
-        return name
-
-    def clean(self):
-        cleaned_data = super(AddGood, self).clean()
-        return cleaned_data
-
-
+        # return cleaned_data
+#
+#
 
 class Register(forms.Form):
-
     username = forms.CharField(required=False)
     password = forms.CharField(widget = forms.PasswordInput(), required=False)
     cpassword = forms.CharField(widget = forms.PasswordInput(),required=False)

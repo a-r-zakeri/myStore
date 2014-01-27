@@ -1,4 +1,6 @@
+from django.conf import settings
 from django.conf.urls import patterns, include, url
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
@@ -15,7 +17,7 @@ urlpatterns = patterns('',
     url(r'^ajaxexample$', 'webStore.views.main'),
     url(r'^ajaxexample_json$', 'webStore.views.ajax'),
     url(r'^goods$', 'webStore.views.goods'),
-    url(r'^addGoods$', 'webStore.views.addGoods'),
+    url(r'^addGood$', 'webStore.views.addGoods', name = 'addGood'),
     url(r'^ajax/addGoods', 'webStore.ajax.uploadimage'),
     url(r'^ajax/goods$', 'webStore.ajax.goods'),
     url(r'^ajax/goodsList$', 'webStore.ajax.goodsList'),
@@ -25,4 +27,5 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += staticfiles_urlpatterns()
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

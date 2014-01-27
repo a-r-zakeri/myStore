@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="2496041008">
-    <data-source source="LOCAL" name="Django default" uuid="6f51430d-4997-45f9-b1d3-93061754f612">
+    <data-source source="LOCAL" name="Django default" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="6f51430d-4997-45f9-b1d3-93061754f612">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\majid\Documents\GitHub\myStore\mystore\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Alireza\Documents\GitHub\myStore\mystore\db.sqlite3</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.PyCharm20/config/jdbc-drivers/xerial-sqlite-license.txt</url>

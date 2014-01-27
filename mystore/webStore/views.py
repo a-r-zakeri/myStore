@@ -34,7 +34,7 @@ def searchFunc(param, param1, param2, param3, param4):
 
 
 def categoryList(requset):
-    return render(requset, "goods.html", {})
+    return render(requset, "goods.html", {'title':u"لیست محصولات"})
 
 
 def catList():
@@ -107,7 +107,7 @@ def specification(request):
     form=ContactForm()
     if request.method !='POST':
         return render(request,"specification.html",{
-            'form':form,
+            'form':form, 'title':u"مشخصات محصول"
         })
 
 
@@ -128,7 +128,7 @@ def addGoods(request):
     form=AddGood()
     if request.method !='POST':
         return render(request,"addGood.html",{
-            'form':form,
+            'form':form, 'title':u"افزودن محصول"
         })
 
 

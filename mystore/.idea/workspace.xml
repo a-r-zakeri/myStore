@@ -26,7 +26,7 @@
       <file leaf-file-name="form.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="46" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2516">
+            <state line="49" column="27" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2703">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="24" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.0" vertical-offset="1208" max-vertical-offset="1734">
+            <state line="94" column="24" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -44,21 +44,20 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="35" selection-start="3121" selection-end="3121" vertical-scroll-proportion="-5.44" vertical-offset="1326" max-vertical-offset="2567">
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#1111#1789#0" expanded="false" />
-                <element signature="e#1816#1930#0" expanded="false" />
-              </folding>
+            <state line="93" column="0" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2686">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goods.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="goods.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/goods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="60" selection-start="4942" selection-end="4942" vertical-scroll-proportion="5.346278" vertical-offset="949" max-vertical-offset="7786">
-              <folding />
+            <state line="100" column="60" selection-start="3236" selection-end="3236" vertical-scroll-proportion="-65.38461" vertical-offset="0" max-vertical-offset="6868">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,19 +65,8 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webStore/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="9" column="25" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="17" selection-start="3765" selection-end="3765" vertical-scroll-proportion="0.0" vertical-offset="1969" max-vertical-offset="2329">
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +74,7 @@
       <file leaf-file-name="mainPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="64" selection-start="4492" selection-end="4492" vertical-scroll-proportion="-11.538462" vertical-offset="1672" max-vertical-offset="2261">
+            <state line="116" column="64" selection-start="4492" selection-end="4492" vertical-scroll-proportion="0.0" vertical-offset="1672" max-vertical-offset="2261">
               <folding />
             </state>
           </provider>
@@ -95,25 +83,53 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="67" selection-start="8994" selection-end="8994" vertical-scroll-proportion="-9.576923" vertical-offset="3933" max-vertical-offset="4471">
+            <state line="222" column="0" selection-start="8408" selection-end="8408" vertical-scroll-proportion="-9.576923" vertical-offset="3525" max-vertical-offset="4080">
               <folding>
-                <element signature="n#style#0;n#ul#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#2;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#3;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#li#0;n#ul#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#2;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#3;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addGood.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addGood.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="0" selection-end="8073" vertical-scroll-proportion="-1.9615384" vertical-offset="816" max-vertical-offset="4573">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#2;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#3;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addGood.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/addGood.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="263" column="7" selection-start="8073" selection-end="8073" vertical-scroll-proportion="7.779141" vertical-offset="1935" max-vertical-offset="4573">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#2;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#3;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +138,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myStore/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="18" column="44" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -138,22 +154,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/baseNavbar.html" />
         <option value="$PROJECT_DIR$/webStore/tests.py" />
         <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/commands" />
         <option value="$PROJECT_DIR$/templates/mainPage.html" />
         <option value="$PROJECT_DIR$/templates/specification.html" />
-        <option value="$PROJECT_DIR$/templates/addGood.html" />
         <option value="$PROJECT_DIR$/myStore/urls.py" />
         <option value="$PROJECT_DIR$/webStore/models.py" />
         <option value="$PROJECT_DIR$/webStore/admin.py" />
         <option value="$PROJECT_DIR$/webStore/form.py" />
         <option value="$PROJECT_DIR$/webStore/views.py" />
         <option value="$PROJECT_DIR$/myStore/settings.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/webStore/ajax.py" />
         <option value="$PROJECT_DIR$/templates/goods.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/addGood.html" />
+        <option value="$PROJECT_DIR$/templates/addGood.html" />
       </list>
     </option>
   </component>
@@ -338,15 +354,15 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysite" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysite" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -450,27 +466,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myStore" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -496,7 +492,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myStore" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -630,7 +646,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19242424" sideWeight="0.6785714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19545455" sideWeight="0.6785714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16638225" sideWeight="0.28658536" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32142857" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -658,39 +674,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/specification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="16" selection-start="4217" selection-end="4844" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="4029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/addGood.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="63" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="4522">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#2;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#3;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="44" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1598">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/addGood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="21" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.5389049" vertical-offset="1173" max-vertical-offset="4641">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/specification.html">
@@ -702,28 +709,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myStore/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="18" column="44" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="9" column="25" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="46" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="2516">
+        <state line="49" column="27" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="24" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1734">
+        <state line="94" column="24" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
@@ -737,60 +744,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="35" selection-start="3121" selection-end="3121" vertical-scroll-proportion="-5.44" vertical-offset="1326" max-vertical-offset="2567">
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#1111#1789#0" expanded="false" />
-            <element signature="e#1816#1930#0" expanded="false" />
-          </folding>
+        <state line="93" column="0" selection-start="2706" selection-end="2706" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2686">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="64" selection-start="4492" selection-end="4492" vertical-scroll-proportion="-11.538462" vertical-offset="1672" max-vertical-offset="2261">
+        <state line="116" column="64" selection-start="4492" selection-end="4492" vertical-scroll-proportion="0.0" vertical-offset="1672" max-vertical-offset="2261">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="67" selection-start="8994" selection-end="8994" vertical-scroll-proportion="-9.576923" vertical-offset="3933" max-vertical-offset="4471">
-          <folding>
-            <element signature="n#style#0;n#ul#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#2;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#3;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#li#0;n#ul#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webStore/ajax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="17" selection-start="3765" selection-end="3765" vertical-scroll-proportion="0.0" vertical-offset="1969" max-vertical-offset="2329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="0" selection-start="8408" selection-end="8408" vertical-scroll-proportion="-9.576923" vertical-offset="3525" max-vertical-offset="4080">
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#2;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#3;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/goods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="60" selection-start="4942" selection-end="4942" vertical-scroll-proportion="5.346278" vertical-offset="949" max-vertical-offset="7786">
-          <folding />
+        <state line="100" column="60" selection-start="3236" selection-end="3236" vertical-scroll-proportion="-65.38461" vertical-offset="0" max-vertical-offset="6868">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addGood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="0" selection-end="8073" vertical-scroll-proportion="-1.9615384" vertical-offset="816" max-vertical-offset="4573">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#2;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#3;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addGood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="7" selection-start="8073" selection-end="8073" vertical-scroll-proportion="7.779141" vertical-offset="1935" max-vertical-offset="4573">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#2;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#3;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

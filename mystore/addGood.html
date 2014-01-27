@@ -39,20 +39,16 @@
       </div>
       <div class="container">
          <div class="col-lg-9">
-             <form method="post" >
-                  {% csrf_token %}
-            <div class="col-lg-6 ">
-                 <img src="/static/1.jpg" id="change" alt="example-image" class="img-rounded img-responsive">
-
-                {% comment %}<fieldset>
-                    <input   class="btn btn-default" type="file"  name="image" style="margin-top:1cm" >
-                </fieldset>{% endcomment %}
-                {{ form.image }}
-                 <h6 style="color:red">{{ form.image.errors }}</h6>
-                     <button  type="submit" class="btn btn-success" style="margin-top:1cm" >ثبت محصول</button>
-                </div>
 
 
+             <form action="{% url "addGood" %}" method="post" enctype="multipart/form-data">
+       {% csrf_token %}
+       {{ form.as_p }}
+       <p>{{ fileForm.file.label_tag }}</p>
+       <p>
+          {{ fileForm.file }}
+       </p>
+       <p><input type="submit" value="افزودن محصول" /></p>
 
             <div class="col-md-5" style="float:right;text-align: right">
                <br>

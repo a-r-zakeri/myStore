@@ -69,7 +69,7 @@ def mainPage(request):
 
     if request.method != 'POST':
         print("views.mainPage: " + request.method)
-        return render_to_response("mainPage.html", RequestContext(request, {}))
+        return render_to_response("mainPage.html", RequestContext(request, {'title': u"صفحه‌ی نخست"}))
 
     if 'uname' in request.POST:
         form = LoginForm(request.POST)

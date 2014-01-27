@@ -62,8 +62,9 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="93" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.34405145" vertical-offset="913" max-vertical-offset="3077">
+            <state line="167" column="149" selection-start="6116" selection-end="6116" vertical-scroll-proportion="0.29581994" vertical-offset="2747" max-vertical-offset="3944">
               <folding>
+                <element signature="n#style#0;n#ul#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#li#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#li#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,7 +74,6 @@
                 <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#ul#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -733,8 +733,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="93" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.34405145" vertical-offset="913" max-vertical-offset="3077">
+        <state line="167" column="149" selection-start="6116" selection-end="6116" vertical-scroll-proportion="0.29581994" vertical-offset="2747" max-vertical-offset="3944">
           <folding>
+            <element signature="n#style#0;n#ul#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#li#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#li#0;n#ul#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -744,7 +745,6 @@
             <element signature="n#style#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#1;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#ul#7;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#li#0;n#ul#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

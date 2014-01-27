@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" xmlns="http://www.w3.org/1999/html">
    <head>
       <meta charset="utf-8">
       <title>فروشنده</title>
@@ -12,7 +12,14 @@
       <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
       <!--[if lt IE 9]>
       <script src="Flat-UI-master/js/html5shiv.js"></script>
+
       <![endif]-->
+
+        <style>
+           body{
+               background:rgb(8,31,44) !important;
+           }
+       </style>
    </head>
    <body>
       <!-- /nav bar -->
@@ -32,21 +39,51 @@
       </div>
       <div class="container">
          <div class="col-lg-9">
-            <form class="col-lg-6 ">
+             <form method="post" >
+                  {% csrf_token %}
+            <div class="col-lg-6 ">
                  <img src="/static/1.jpg" id="change" alt="example-image" class="img-rounded img-responsive">
 
                 {% comment %}<fieldset>
                     <input   class="btn btn-default" type="file"  name="image" style="margin-top:1cm" >
                 </fieldset>{% endcomment %}
-                {{ forms.image }}
+                {{ form.image }}
+                 <h6 style="color:red">{{ form.image.errors }}</h6>
+                     <button  type="submit" class="btn btn-success" style="margin-top:1cm" >ثبت محصول</button>
+                </div>
 
-               <button  type="submit" class="btn btn-success" style="margin-top:1cm" >افزودن عکس</button>
-            </form>
-            <div class="col-md-7" style="float:right;text-align: right">
+
+
+            <div class="col-md-5" style="float:right;text-align: right">
                <br>
 
 
+                <h6 style="color:red">{{ form.name.errors }}</h6>
+
+                <span class="text-info"> :نام کالا </span>
+                <br>
+                 {{ form.name }}
+                <br>
+
+                 <h6 style="color:red">{{ form.count.errors }}</h6>
+                <span class="text-info">:تعداد </span>
+                <br>
+                {{ form.count }}
+                <br>
+                <h6 style="color:red">{{ form.price.errors }}</h6>
+                <span class="text-info">:قیمت </span>
+                <br>
+                {{ form.price }}
+                <br>
+                 <h6 style="color:red">{{ form.about.errors }}</h6>
+                <span class="text-info">:توضیح </span>
+                <br>
+                &nbsp{{ form.about }}
+                <br>
+
+
             </div>
+             </form >
          </div>
          <div class="col-md-3 " style="text-align: right">
             <div class="todo">
@@ -111,8 +148,11 @@
 
 
       $("input[name='image']").change(function(){
-
+        ////////////////////////
          readURL(this);
+
+
+         ////////////////////
 
 
 

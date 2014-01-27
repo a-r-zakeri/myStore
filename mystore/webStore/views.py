@@ -2,10 +2,11 @@ from django.core.serializers import json
 from django.http import *
 from django.shortcuts import render_to_response, render
 from django.template import RequestContext
-from webStore.form import ContactForm
+from webStore.form import *
 from django.shortcuts import render
 from webStore.models import *
-
+from django.contrib.auth import authenticate, logout
+from django.contrib.auth import login
 
 
 
@@ -63,14 +64,43 @@ def goods(request):
     return render_to_response("goods.html", RequestContext(request, {}))
 
 
-def addGoods(request):
-    print("views. addGooods: " + request.method)
-    return render_to_response("addGood.html", RequestContext(request, {}))
-
 
 def mainPage(request):
-    print("views.mainPage: " + request.method)
-    return render_to_response("mainPage.html", RequestContext(request, {}))
+
+    if request.method != 'POST':
+        print("views.mainPage: " + request.method)
+        return render_to_response("mainPage.html", RequestContext(request, {}))
+
+    if 'uname' in request.POST:
+        form = LoginForm(request.POST)
+
+        if form.is_valid():
+            username = form.clean_uname()
+            password = form.clean_pword()
+            user = authenticate(username=username, password=password)
+            if user is not None and user.is_active:
+                login(request, user)
+                return ("mainPage.html", RequestContext(request, {}))
+        return render(request,"mainPage.html",{
+            'form':form,
+        })
+
+
+
+    form=Register(request.POST)
+    if form.is_valid():
+        password=form.clean_password()
+        cpassword=form.clean_cpassword()
+        username=form.clean_username()
+        email=form.clean_email()
+        user=User.objects.create(username=username, password=password, email=email)
+        user.save()
+
+
+    return render(request,"mainPage.html", {
+        'form':form,
+    })
+
 
 
 def specification(request):
@@ -83,14 +113,41 @@ def specification(request):
 
     form=ContactForm(request.POST)
     if form.is_valid():
-        sender=form.cleaned_data['sender']
-        subject=form.cleaned_data['subject']
-        message=form.cleaned_data['message']
+        sender=form.clean_sender()
+        subject=form.clean_subject()
+        message=form.clean_message()
         comment = Comment.objects.create(subject=subject, sender=sender, message=message)
-
         comment.save()
 
     return render(request,"specification.html",{
+            'form':form,
+        })
+
+
+def addGoods(request):
+    form=AddGood()
+    if request.method !='POST':
+        return render(request,"addGood.html",{
+            'form':form,
+        })
+
+
+    form = AddGood(request.POST, request.FILES)
+    if form.is_valid():
+        image=form.clean()
+        count=form.clean_count()
+        name=form.clean_name()
+        about=form.clean()
+        price=form.clean_price()
+        saveImage=Image.objects.create(picUrl=image,pic= request.FILES.get("image"))
+        saveImage.save()
+        slideShow=SlideShow.objects.create(imageURL=image)
+        slideShow.save()
+        cat=Category.objects.create(name="majid",parent=None)
+        saveGood=Good.objects.create(name=name, category=cat, price= price, count=count, pic= saveImage, slideShow=slideShow)
+        saveGood.save()
+
+    return render(request,"addGood.html",{
             'form':form,
         })
 

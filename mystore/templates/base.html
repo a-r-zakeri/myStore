@@ -22,141 +22,112 @@
 <body>
       <!-- /nav bar -->
       <div class="navbar navbar-inverse">
-         <ul class="nav navbar-nav  navbar-right">
-
+         <ul class="nav  navbar-right">
             <li>
+
                <a href="#">
-درباره ی ما
+               مرکز مالی
                </a>
             </li>
+         </ul>
 
-            <li>
-               <a href="#">
-               پیشنهاد ویژه
-               </a>
-            </li>
-
+         <ul class="nav navbar-nav navbar-right">
             <li>
                <a href="#">
                محبوب ترین محصولات
                </a>
             </li>
+         </ul>
 
+         <ul class="nav navbar-nav navbar-right">
             <li>
                <a href="#">
-صفحه‌ی اصلی
+               پیشنهاد ویژه
                </a>
             </li>
-
-            <li>
-                <a href="#">
-سبد خرید
-                </a>
-            </li>
-
-            <li>
-               <a href="#" onclick="majidlist('enter')">
-ورود
-               </a>
-            </li>
-
-            <li>
-               <a href="#" onclick="majidlist('register')">
-ثبت نام
-               </a>
-            </li>
-
-
          </ul>
 
 
 
-         <ul class="nav navbar-brand">
+         <ul class="nav navbar-nav navbar-right">
             <li>
-               <input type="text" class="form-control" placeholder="جستجوی سریع" />
+               <a href="#">
+درباره ی ما
+               </a>
             </li>
          </ul>
 
 
-         <!-- Register form !-->
-            <form method="post">
-               {{ form.non_field_errors }}
-               {% csrf_token %}
-               <div class="col-md-7" style="position: absolute; right: 0%; top: 85%; width: 10cm">
-                  <ul id="register"  role="menu" style="display: none;">
-                     <li><a href="#">
-                        <div class="login-form" >
-                           <h6 style="color:red">{{ form.username.errors }}</h6>
-                           <div class="form-group">
-                              <input id="id_username" name="username" type="text" class="form-control login-field" value="" placeholder="شناسه ? کاربر?" id="register-name">
-                              <label class="login-field-icon fui-user" for="login-name"></label>
-                           </div>
-                           <h6 style="color:red">{{ form.password.errors }}</h6>
-                           <div class="form-group">
-                              <input id="id_password" name="password" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
-                              <label class="login-field-icon fui-lock" for="login-pass"></label>
-                           </div>
-                           <h6 style="color:red">{{ form.cpassword.errors }}</h6>
-                           <div class="form-group">
-                              <input id="id_cpassword" name="cpassword" type="password" class="form-control login-field" value="" placeholder=" تکرار رمز عبور" id="login-pass">
-                              <label class="login-field-icon fui-lock" for="login-pass"></label>
-                           </div>
-                           <h6 style="color:red">{{ form.email.errors }}</h6>
-                           <div class="form-group">
-                              <input id="id_email" name="email" type="text" class="form-control login-field" value="" placeholder="ایمیل" id="login-pass">
-                              <label class="login-field-icon fui-mail" for="login-mail"></label>
-                           </div>
+          <ul class="nav navbar-nav navbar-right" style="position: absolute;top: 2cm;left: 30cm">
+            <li>
+               <input type="text"  class="form-control" placeholder="جستجوی سریع" />
+            </li>
+         </ul>
 
-                           <button type="submit" name="majid2" class="btn btn-primary btn-lg btn-block">
-                              ثبت نام
-                           </button>
-                        </div>
-                     </a></li>
-                  </ul>
-               </div>
-            </form>
-         <!-- End of Register form !-->
 
-         <!-- Enter form !-->
-            <form method="post">
-               {% csrf_token %}
-               <div class="col-md-7" style="position: absolute; right: 7%; top: 85%; width: 10cm">
-                  <ul id="enter"  role="menu" style="display: none">
-                     <li><a href="#">
-                        <div class="login-form">
-                           <h6 style="color:red">{{ form.uname.errors }}</h6>
-                           <div class="form-group">
-                              <input name="uname" id="id_uname" type="text" class="form-control login-field" value="" placeholder="شناسه ? کاربر?" id="register-name">
-                              <label class="login-field-icon fui-user" for="login-name"></label>
-                           </div>
-                           <h6 style="color:red">{{ form.pword.errors }}</h6>
-                           <div class="form-group">
-                              <input name="pword" id="id_pword" type="password" class="form-control login-field" value="" placeholder="رمز عبور" id="login-pass">
-                              <label class="login-field-icon fui-lock" for="login-pass"></label>
-                           </div>
-                           <button type="submit" name="majid1" class="btn btn-primary btn-lg btn-block" href="#">ورود</button>
-                           <a class="login-link" href="#">رمز عبور را فراموش کرده ام</a>
-                        </div>
-                     </a></li>
-                  </ul>
-               </div>
-            </form>
-         <!-- End of Enter form !-->
+           <ul>
+              <li>
+         <div class="col-md-7" style="position: absolute;left: 0cm;top: 0cm" >
 
-         <!-- Enter form
-         <div class="col-md-7" style="margin-top: 1cm ; position: absolute; top: -0.7cm; left: 7cm;">
-            <button  class="btn btn-success" onclick="majidlist('enter')" style="width: 2cm">
-           ورود
+             <div class="btn-group select select-block open">
+
+                <button  class="btn dropdown-toggle clearfix btn-primary" data-toggle="dropdown"  style="width: 4cm;height: 3cm">
+                <img src="/static/flat-ui-master/images/icons/svg/paper-bag.svg" alt="Pocket">
+            </button>
+
+                 <ul class="dropdown-menu dropdown-inverse" role="menu" style="overflow-y: auto; min-height: 108px;width:8cm">
+
+
+
+                     <li rel="4" class="selected">
+                        <a tabindex="-1" href="/sabad/" class="">
+                            <span class="pull-left">جزییات</span>
+                        </a>
+                    </li>
+
+                     <li rel="1" class="">
+                        <a tabindex="-1" href="" class="">
+                            <span class="pull-left">شرلوک هلمز</span>
+                        </a>
+                    </li>
+
+                    <li rel="4" class="selected">
+                        <a tabindex="-1" href="/sabad/" class="">
+                            <span class="pull-left">پرداخت</span>
+                        </a>
+                    </li>
+
+                     </ul>
+                 </div>
+
+         </div>
+                  </li>
+              </ul>
+
+
+
+
+
+
+
+                  <!-- Enter form !-->
+          <ul>
+              <li>
+         <div class="col-md-7" style="position: absolute;left: 5cm;top: 0cm" >
+            <button  class="btn btn-success" onclick="majidlist('enter')" style="width: 4cm;height: 3cm">
+        <img src="/static/flat-ui-master/images/icons/svg/retina.svg" alt="Retina">
             </button>
             <form method="post">
                {% csrf_token %}
-               <div class="col-md-7" style="position: relative; left: -8cm; top: 0.2cm;">
+               <div class="col-md-7" style="position: relative;  left: -2cm; top: 0.5cm;">
                   <ul id="enter"  role="menu" style="display: none">
                      <li><a href="#">
+
                         <div class="login-form">
+
                            <h6 style="color:red">{{ form.uname.errors }}</h6>
                            <div class="form-group">
-                              <input name="uname" id="id_uname" type="text" class="form-control login-field" value="" placeholder="شناسه ? کاربر?" id="register-name">
+                              <input name="uname" id="id_uname" type="text" class="form-control login-field" value="" placeholder="شناسه کاربری" id="register-name">
                               <label class="login-field-icon fui-user" for="login-name"></label>
                            </div>
                            <h6 style="color:red">{{ form.pword.errors }}</h6>
@@ -165,7 +136,7 @@
                               <label class="login-field-icon fui-lock" for="login-pass"></label>
                            </div>
                            <button type="submit" name="majid1" class="btn btn-primary btn-lg btn-block" href="#">ورود</button>
-                           <a class="login-link" href="#">رمز عبور را فراموش کرده ام</a>
+                           <a class="login-link" href="#">  رمز عبور را فراموش کرده ام   </a>
                         </div>
                      </a></li>
                   </ul>
@@ -173,23 +144,28 @@
             </form>
 
          </div>
+                  </li>
+              </ul>
          <!-- End of Enter form !-->
 
-         <!-- Register form
-         <div class="col-md-7" style="margin-top: 1cm; position: absolute; top: -0.7cm; left: 10cm; width: 2cm;">
-            <button  class="btn btn-success" onclick="majidlist('register')" style="width: 2cm;">
-ثبت نام
+         <!-- Register form !-->
+          <ul>
+              <li>
+         <div class="col-md-7" style="position: absolute;left: 10cm;top: 0cm">
+
+            <button  class="btn btn-success" onclick="majidlist('register')" style="width: 4cm;height: 3cm">
+<img src="/static/flat-ui-master/images/icons/svg/clipboard.svg" alt="Clipboard">
             </button>
             <form method="post">
                {{ form.non_field_errors }}
                {% csrf_token %}
-               <div class="col-md-7" style="position: relative; left: -8cm; top: 0.2cm;">
+               <div class="col-md-7" style="position: relative; left: -2cm; top: 0.5cm;">
                   <ul id="register"  role="menu" style="display: none">
                      <li><a href="#">
                         <div class="login-form">
                            <h6 style="color:red">{{ form.username.errors }}</h6>
                            <div class="form-group">
-                              <input id="id_username" name="username" type="text" class="form-control login-field" value="" placeholder="شناسه ? کاربر?" id="register-name">
+                              <input id="id_username" name="username" type="text" class="form-control login-field" value="" placeholder="شناسه کاربری " id="register-name">
                               <label class="login-field-icon fui-user" for="login-name"></label>
                            </div>
                            <h6 style="color:red">{{ form.password.errors }}</h6>
@@ -199,24 +175,24 @@
                            </div>
                            <h6 style="color:red">{{ form.cpassword.errors }}</h6>
                            <div class="form-group">
-                              <input id="id_cpassword" name="cpassword" type="password" class="form-control login-field" value="" placeholder=" تکرار رمز عبور" id="login-pass">
+                              <input id="id_cpassword" name="cpassword" type="password" class="form-control login-field" value="" placeholder="تکرار رمز عبور" id="login-pass">
                               <label class="login-field-icon fui-lock" for="login-pass"></label>
                            </div>
                            <h6 style="color:red">{{ form.email.errors }}</h6>
                            <div class="form-group">
-                              <input id="id_email" name="email" type="text" class="form-control login-field" value="" placeholder="ایمیل" id="login-pass">
+                              <input id="id_email" name="email" type="text" class="form-control login-field" value="" placeholder="آدرس پستی" id="login-pass">
                               <label class="login-field-icon fui-mail" for="login-mail"></label>
                            </div>
 
-                           <button type="submit" name="majid2" class="btn btn-primary btn-lg btn-block">
-                              ثبت نام
-                           </button>
+                           <button type="submit" name="majid2" class="btn btn-primary btn-lg btn-block" >ثبت نام </button>
                         </div>
                      </a></li>
                   </ul>
                </div>
             </form>
          </div>
+                  </li>
+              </ul>
          <!-- End of Register form !-->
 
 

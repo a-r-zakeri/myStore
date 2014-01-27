@@ -82,3 +82,17 @@ class User(models.Model):
     class Meta:
         verbose_name = "کاربر"
         verbose_name_plural = "کاربران"
+
+
+
+class Basket(models.Model):
+
+    user = models.ForeignKey(User)
+    good = models.ForeignKey(Good)
+    status=models.BooleanField()
+
+    def __str__(self):
+        return self.user
+
+    class Meta:
+        verbose_name = "سبد خرید"

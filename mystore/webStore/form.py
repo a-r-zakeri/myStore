@@ -70,8 +70,6 @@ class AddGood(forms.Form):
 
     def clean(self):
         cleaned_data = super(AddGood, self).clean()
-
-        # Always return the full collection of cleaned data.
         return cleaned_data
 
 

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fa">
+   <head>
+      <meta charset="utf-8">
+      <title>
+          مشخصات محصول
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Loading Bootstrap -->
+      <link href="/static/Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <!-- Loading Flat UI -->
+      <link href="/static/Flat-UI-master/css/flat-ui.css" rel="stylesheet">
+      <link rel="shortcut icon" href="/static/Flat-UI-master/images/favicon.ico">
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+      <!--[if lt IE 9]>
+      <script src="Flat-UI-master/js/html5shiv.js"></script>
+      <![endif]-->
+        <style>
+           body{
+               background:rgb(8,31,44) !important;
+           }
+       </style>
+
+   </head>
+   <body>
+
+      <!-- /nav bar -->
+      <div class="navbar navbar-inverse">
+         <ul class="nav navbar-collapse navbar-right">
+            <li>
+               <button style="margin-top: 12px;" class="btn btn-default" href="#">
+               سبد خرید
+               </button>
+            </li>
+         </ul>
+         <ul class="nav navbar-brand navbar-left">
+            <li>
+               <input type="text" class="form-control" placeholder="              جستجوی سریع"/>
+            </li>
+         </ul>
+      </div>
+      <!-- end of /nav bar -->
+
+      <div class="container">
+         <div class="col-lg-9">
+            <div class="col-lg-4 " style="text-align: right">
+               <img src="1.jpg" alt="example-image" class="img-rounded img-responsive">
+               <div class="text-info " style="text-align: right">
+                  جدایی نادر از سیمین
+               </div>
+               <div class="text-info" style="text-align: right">
+                  قیمت: ۲۵۰۰۰ ریال
+               </div>
+               <button class="btn btn-primary">
+                  افزودن به سبد خرید
+               </button>
+            </div>
+            <div class="col-md-7" style="text-align: right">
+
+               <span class="text-info">
+                   نام کالا
+               </span>
+               <br/>
+
+               <span class="text-success">
+                   جدایی نادر از سیمین
+               </span>
+               <br/>
+               <br/>
+
+               <span class="text-info">
+                   نام شرکت ارائه دهنده
+               </span>
+               <br/>
+
+               <span class="text-success">
+                   تصویر دنیای هنر
+               </span>
+               <br/>
+               <br/>
+
+               <span class="text-info">
+مشخصات کالا
+               </span>
+               <br/>
+
+               <span class="text-success">
+                   این فیلم تولید سال ۸۹ است.
+               </span>
+               <br/>
+
+            </div>
+         </div>
+         <div class="col-md-3 " style="text-align: right">
+            <div class="todo">
+               <h4 class="text-info" style="text-align: right">
+                   کالاهای مرتبط
+               </h4>
+               <ul>
+                  <li class="dropdown-arrow-inverse">
+                     <div class="todo-icon"><button class="btn btn-default">
+                         اطلاعات بیشتر
+                         </button></div>
+                     <div class="todo-content">
+                        <p class="todo-name right">
+                           گذشته
+                        </p>
+                        قیمت: ۲۵۰۰۰ ریال
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="pagination">
+               <ul>
+                  <li class="previous">
+                     <a href="#" class="fui-arrow-left"></a>
+                  </li>
+                  <li class="active"><a href="#fakelink">1</a></li>
+                  ...
+                  <li><a href="#fakelink">10</a></li>
+                  <li class="next">
+                     <a href="#" class="fui-arrow-right"></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+          <div class="col-lg-11 " >
+            <ul  style="list-style-type: none;text-align: right">
+
+
+            </ul>
+
+          </div>
+          <div class="col-lg-10 " style="text-align: right">
+            <form  method="post" >
+                {% csrf_token %}
+                <h6 style="color:red">{{ form.subject.errors }}</h6>
+
+                <span class="text-info"> :نام نویسنده </span>
+                <br>
+                 {{ form.subject }}
+                <br>
+
+                 <h6 style="color:red">{{ form.message.errors }}</h6>
+                <span class="text-info">:نظر </span>
+                <br>
+                {{ form.message }}
+                <br>
+                 <h6 style="color:red">{{ form.sender.errors }}</h6>
+                <span class="text-info">:ایمیل </span>
+                <br>
+                {{ form.sender }}
+                <br>
+                <br>
+
+
+
+
+                <button type="submit"  class="btn btn-success">ثبت نظر</button>
+            </form >
+          </div>
+
+      </div>
+
+      <script class="cssdeck" src="/static/jquery.min.js"></script>
+      <script>
+
+          $(document).on("click","button.btn.btn-success",function(){
+
+               var majid=$("div.col-lg-10").children("input.form-control:last")
+               var ajaxData={
+
+               "message":majid.val()
+
+
+           }
+
+
+
+               $.ajax({
+
+
+              url:"/ajax/specification",
+              type:'get',
+              dataType:'json',
+               data:ajaxData,
+              success:function(data){
+                  if(data.result==0){
+
+                  }else{
+                   alert("نظر شما ثبت شد. بعد از بررسی در این سایت قرار خواهد گرفت. با شکر")
+
+                  }
+
+              }
+          })
+
+           });
+
+          $.ajax({
+              url:"/ajax/comments",
+              type:'get',
+              dataType:'json',
+              success:function(data){
+                  if(data.result==0){
+
+                  }else{
+                      for(i=0;i<data.commentList.length;i++){
+                          $("div.col-lg-11").children("ul").append(
+                               '<li class="text-primary">'+
+                    '<span class="text-info"> :نام نویسنده</span><br>'
++data.commentList[i].name+
+                                  '<br>'+
+                    ' <span class="text-info">:نظر </span><br>'
+
++data.commentList[i].message+
+
+
+                '</li>'
+
+                          )
+                      }
+                  }
+              }
+
+          });
+
+
+
+
+
+
+
+
+      </script>
+      <!-- Load JS here for greater good =============================-->
+
+   </body>
+</html>

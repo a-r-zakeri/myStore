@@ -4,6 +4,7 @@ import json
 from webStore.form import *
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
+from webStore.models import *
 
 
 
@@ -28,7 +29,7 @@ def goodsList(request):
     allGood = models.Good.objects.all()
     JSONallGoods = []
     for good in allGood:
-        JSONallGoods.append({"picUrl": good.name, "category" : good.id, "id" : good.id, "name" : good.name, "price" : good.price})#should be complete
+        JSONallGoods.append({"picUrl": good.pic.picUrl, "category" : good.category, "id" : good.id, "name" : good.name, "price" : good.price})#should be complete
     print(JSONallGoods)
     data = {}
     data ['result'] = "1"
@@ -87,3 +88,25 @@ def contact(request):
 
 
 
+
+def addBasket(request):
+    good=Good.objects.get(pk=requsest['id'])
+    user=User.objects.filter(username=request.user['username'])
+    basket=Basket(user=user, good=good, status=False)
+    basket.save()
+
+
+def removeBasket(request):
+    good=Good.objects.get(pk=requsest['id'])
+    user=User.objects.filter(username=request.user['username'])
+    Basket.objects.filter(user=user, good=good).delete()
+
+
+
+def buy(request):
+    good=Good.objects.get(pk=requsest['id'])
+    user=User.objects.filter(username=request.user['username'])
+    basket=Basket.objects.filter(user=user, good=good)
+    for bs in basket:
+        bs.status=True
+    basket.save()

@@ -7,6 +7,8 @@ from django.shortcuts import render
 from webStore.models import *
 from django.contrib.auth import authenticate, logout
 from django.contrib.auth import login
+from django.contrib.auth.models import User as Uauth
+
 
 
 
@@ -80,9 +82,12 @@ def mainPage(request):
             user = authenticate(username=username, password=password)
             if user is not None and user.is_active:
                 login(request, user)
-                return ("mainPage.html", RequestContext(request, {}))
+
+                return render(request,"mainPage.html",{
+            'majidName':username,
+        })
         return render(request,"mainPage.html",{
-            'form':form,
+            'majidName':"شماره کاربری یا رمز اشتباه",
         })
 
 
@@ -93,8 +98,11 @@ def mainPage(request):
         cpassword=form.clean_cpassword()
         username=form.clean_username()
         email=form.clean_email()
-        user=User.objects.create(username=username, password=password, email=email)
+        user=User.objects.create(username=username,password=password,  email=email)
         user.save()
+        auth=Uauth.objects.create(username=username,  email=email)
+        auth.set_password(password)
+        auth.save()
 
 
     return render(request,"mainPage.html", {
@@ -147,8 +155,8 @@ def addGoods(request):
         saveGood=Good.objects.create(name=name, category=cat, price= price, count=count, pic= saveImage, slideShow=slideShow)
         saveGood.save()
 
+
     return render(request,"addGood.html",{
             'form':form,
         })
-
 
